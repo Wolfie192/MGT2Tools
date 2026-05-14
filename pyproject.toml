@@ -1,0 +1,8 @@
+[project]
+name = "mgt2tools"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "markdown==3.10.2",
+    "pyqt6==6.11.0",
+]
