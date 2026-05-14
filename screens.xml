@@ -145,4 +145,237 @@
             The draft and the Drifter career are exceptions to this rule – you can be drafted into a career you were previously in but got ejected from and the Drifter career is always open.
         </paragraph>
     </screen>
+    <screen title="Skills and Training" button_text="Skills/Training" button_group="Career Descriptions">
+        <paragraph>
+            Each career has four or five types of skill table associated with it – Personal Development, Service Skills, Assignment Skills (divided into three sub-tables corresponding to assignments), Officer and Advanced Education. In each term you spend in a career, pick one of these tables and roll 1D to see which skill you increase.
+        </paragraph>
+        <paragraph>
+            You may only roll on the Advanced Education or Commissioned tables if you have the listed requirement (usually EDU 8 or higher, or a certain rank).
+        </paragraph>
+        <paragraph>
+            Skills can be listed with or without an associated level. If no specific level is listed, then you gain that skill at level 1 if you do not have it already, or increase its level by +1 if you are already trained in that field. If a level is listed, then you gain the skill at that level so long as it is higher than your current level in the skill.
+        </paragraph>
+        <paragraph>
+            For example, Gambler 0 would mean you receive the Gambler skill at level 0. This is of benefit to you only if you have no Gambler skill.
+        </paragraph>
+        <paragraph>
+            Vacc Suit would mean you increase your Vacc Suit skill by +1 or gain it at level 1 if you have no Vacc Suit skill to begin with. If you have Vacc Suit 0, it increases to 1, if you have Vacc Suit 2 it rises to 3 and so forth.
+        </paragraph>
+        <paragraph>
+            Streetwise 1 would mean you get the Streetwise skill at level 1. If your Streetwise skill is already 1 or more, then this is of no benefit to you. If you have no Streetwise skill, or it is only at 0, you jump straight to Streetwise 1.
+        </paragraph>
+    </screen>
+    <screen title="Skill Limits" button_text="Skill Limits" button_group="Career Descriptions">
+        <paragraph>
+            A skill may never be increased beyond level 4 during Traveller creation. Once a skill has reached level 4, any additional increases are lost. In addition, a Traveller may never have a total number of skill levels higher than three times their combined INT and EDU.
+        </paragraph>
+    </screen>
+    <screen title="Basic Training" button_text="Basic Training" button_group="Career Descriptions">
+        <paragraph>
+            For your first career only, instead of rolling for a skill, you get all the skills listed on the Service Skills table at level 0 as your basic training. For subsequent careers, you may pick any one skill listed in the Service Skills table at level 0 as your basic training.
+        </paragraph>
+        <paragraph>
+            Citizens and Drifters are an exception to this. They both use their appropriate Assignment Skills for basic training.
+        </paragraph>
+    </screen>
+    <screen title="Survival" button_text="Survival" button_group="Career Descriptions">
+        <paragraph>
+            Each career has a survival roll. If you fail this roll, you must immediately roll on the Mishap table for the career. This mishap will force you to leave the career immediately unless otherwise stated. You will also lose the Benefit roll for the current term. A natural 2 on the survival roll is always a failure.
+        </paragraph>
+    </screen>
+    <screen title="Events" button_text="Events" button_group="Career Descriptions">
+        <paragraph>
+            If you are still in your career after resolving the survival roll, roll on the career’s Events table to see what interesting things befall you this term.
+        </paragraph>
+    </screen>
+    <screen title="Advancement" button_text="Advancement" button_group="Career Descriptions">
+        <paragraph>
+            Each career has an advancement roll to represent your successful (or otherwise) path through the career. You start each career at rank 0.
+        </paragraph>
+        <paragraph>
+            If you make a successful advancement roll, move to the next higher rank and gain an extra roll on any of the skill tables available for your career. You also get any bonuses listed for your new rank. You may only attempt to advance once per term.
+        </paragraph>
+        <paragraph>
+            If your advancement roll is equal to or less than the number of terms you have spent in this career, then you cannot continue in this career after this term. Either your services are no longer required, or events have caused you to leave, or perhaps you are simply bored and want a new challenge.
+        </paragraph>
+        <paragraph>
+            If you roll a natural 12, then you must continue in this career. You are too valuable to lose and will be strongarmed into staying.
+        </paragraph>
+    </screen>
+    <screen title="Commission" button_text="Commission" button_group="Career Descriptions">
+        <paragraph>
+            This only applies to the military careers of Army, Navy and Marines. A Traveller who succeeds at a commission roll becomes a rank 1 officer in that career and progresses on the officer’s rank table from then on. Trying for a commission is optional.
+        </paragraph>
+        <paragraph>
+            You may only attempt to gain a commission in your first term unless your SOC is 9 or higher, in which case you may try for a commission in any term. However, there is DM-1 applied to commission rolls for every term after the first.
+        </paragraph>
+        <paragraph>
+            Some events give a bonus DM to advancement rolls or grant automatic advancement. You can apply these DMs to commission rolls also.
+        </paragraph>
+        <paragraph>
+            If you gain a commission, you may not roll for advancement in the same term. Travellers can still roll for advancement if they fail a commission roll.
+        </paragraph>
+    </screen>
+    <screen title="Ranks and Bonuses" button_text="Ranks/Bonuses" button_group="Career Descriptions">
+        <paragraph>
+            You begin at rank 0 in a new career. Each time you succeed with an advancement roll, you move up to the next rank. Ranks are most important for military careers, such as the Army or Navy, but every career has its own internal hierarchies and levels of authority and responsibility. However, not all ranks have a title like the military.
+        </paragraph>
+        <paragraph>
+            Some ranks have bonuses associated with them, such as extra skills. These are acquired immediately upon attaining the rank.
+        </paragraph>
+    </screen>
+    <screen title="Benefits" button_text="Benefits" button_group="Career Descriptions">
+        <paragraph>
+            When you leave a career for any reason, you gain material benefits from that career, representing money, equipment and influence acquired during your years of work.
+        </paragraph>
+    </screen>
+    <screen title="Drifters and the Draft" button_text="Drifters/Draft" button_group="Career Descriptions">
+        <paragraph>
+            You may attempt to enlist in one career each term if you are not continuing with an existing career. If you fail to qualify for a new career, you have two options. You can either apply to the draft, and be randomly sent to one of the military services, or you may spend that term travelling as a Drifter, without true career or purpose. A Traveller may only enter the draft once in their lifetime unless otherwise stated.
+        </paragraph>
+        <table header="Draft Table">
+            <columns>1D | Career (assignment)</columns>
+            <row>1 | Navy (any)</row>
+            <row>2 | Army (any)</row>
+            <row>3 | Marine (any)</row>
+            <row>4 | Merchant (merchant marine)</row>
+            <row>5 | Scout (any)</row>
+            <row>6 | Agent (law enforcement)</row>
+        </table>
+    </screen>
+    <screen title="Changing Careers" button_text="Changing Careers" button_group="Career Descriptions">
+        <paragraph>
+            A Traveller may get forced out of a career due to a mishap or event, or may simply leave voluntarily to pursue a more exciting or more lucrative life elsewhere.
+        </paragraph>
+        <paragraph>
+            To enter a new career, a Traveller need only make the appropriate qualification roll at the start of a new term. If they fail, they must either submit to the draft (if they have not already done so earlier in life) or become a Drifter.
+        </paragraph>
+    </screen>
+    <screen title="Changing Assignments" button_text="Changing Assignments" button_group="Career Descriptions">
+        <paragraph>
+            Instead of a whole new career, a Traveller may instead be interested in focussing on another aspect of their existing career by changing their assignment.
+        </paragraph>
+        <paragraph>
+            For assignments in the Army, Marine, Navy, Nobility, Rogue, Scholar or Scout career, this simply requires a qualification roll. If this is unsuccessful, the Traveller continues in the career with the same assignment they had before without penalty. If the qualification roll is made, the Traveller now adopts the new assignment and continues in the career, retaining their rank.
+        </paragraph>
+        <paragraph>
+            New assignments in the Agent, Citizen, Entertainer and Merchant careers are considered to be new careers. Upon voluntarily leaving the career (a change in assignment cannot be done if you have been ejected from the career – no one will hire you!), Benefit rolls are made as normal and a qualification roll is necessary to enter the assignment. If this is failed, the Traveller must enter the draft or become a Drifter.
+        </paragraph>
+        <paragraph>
+            If the attempt to change assignment is successful, the career begins afresh with the new assignment, with the Traveller starting at rank 0.
+        </paragraph>
+    </screen>
+    <screen title="Agent" button_text="Qualification" button_group="Agent">
+        <paragraph>
+            Law enforcement agencies, corporate operatives, spies and others who work in the shadows.
+        </paragraph>
+        <paragraph> </paragraph>
+        <paragraph>
+            **Qualification:** INT 6+
+            DM-1 for every previous career
+        </paragraph>
+    </screen>
+    <screen title="Assignments" button_text="Assignments" button_group="Agent">
+        <paragraph>
+            Choose one of the following:
+        </paragraph>
+        <paragraph>
+            **Law Enforcement:** You are a police officer or detective.
+        </paragraph>
+        <paragraph>
+            **Intelligence:** You work as a spy or saboteur.
+        </paragraph>
+        <paragraph>
+            **Corporate:** You work for a corporation, spying on rival organisations.
+        </paragraph>
+    </screen>
+    <screen title="Career Progress" button_text="Career Progress" button_group="Agent">
+        <table>
+            <columns> | Survival | Advancement</columns>
+            <row>Law Enforcement | END 6+ | INT 6+</row>
+            <row>Intelligence | INT 7+ | INT 5+</row>
+            <row>Corporate | INT 5+ | INT 7+</row>
+        </table>
+    </screen>
+    <screen title="Mustering Out Benefits" button_text="Mustering Out" button_group="Agent">
+        <table>
+            <columns>1D | Cash | Benefits</columns>
+            <row>1 | Cr1,000 | Scientific Equipment</row>
+            <row>2 | Cr2,000 | INT +1</row>
+            <row>3 | Cr5,000 | Ship Share</row>
+            <row>4 | Cr7,500 | Weapon</row>
+            <row>5 | Cr10,000 | Cybernetic Implant</row>
+            <row>6 | Cr25,000 | SOC +1 or Cybernetic Implant</row>
+            <row>7 | Cr50,000 | TAS Membership</row>
+        </table>
+    </screen>
+    <screen title="Skills and Training" button_text="Skill Tables" button_group="Agent">
+        <table>
+            <columns>1D | Personal Development | Service Skills | Advanced Education (Min. EDU 8)</columns>
+            <row>1 | Gun Combat | Streetwise | Advocate</row>
+            <row>2 | DEX +1 | Drive | Language</row>
+            <row>3 | END +1 | Investigate | Explosives</row>
+            <row>4 | Melee | Flyer | Medic</row>
+            <row>5 | INT +1 | Recon | Vacc Suit</row>
+            <row>6 | INT +1 | Recon | Vacc Suit</row>
+        </table>
+        <table>
+            <columns>1D | Law Enforcement | Intelligence | Corporate</columns>
+            <row>1 | Investigate | Investigate | Investigate</row>
+            <row>2 | Recon | Recon | Electronics (computers)</row>
+            <row>3 | Streetwise | Electronics (comms) | Stealth</row>
+            <row>4 | Stealth | Stealth | Carouse</row>
+            <row>5 | Melee | Persuade | Deception</row>
+            <row>6 | Advocate | Deception | Streetwise</row>
+        </table>
+    </screen>
+    <screen title="Ranks and Bonuses" button_text="Ranks" button_group="Agent">
+        <table>
+            <columns>Rank | Law Enforcement | Skill or Bonus</columns>
+            <row>0 | Rookie | —</row>
+            <row>1 | Corporal | Streetwise 1</row>
+            <row>2 | Sergeant | —</row>
+            <row>3 | Detective | —</row>
+            <row>4 | Lieutenant | Investigate 1</row>
+            <row>5 | Chief | Admin 1</row>
+            <row>6 | Commissioner | SOC +1</row>
+        </table>
+        <table>
+            <columns>Rank | Intelligence/Corporate | Skill or Bonus</columns>
+            <row>0 | — | —</row>
+            <row>1 | Agent | Deception 1</row>
+            <row>2 | Field Agent | Investigate 1</row>
+            <row>3 | — | —</row>
+            <row>4 | Special Agent | Gun Combat 1</row>
+            <row>5 | Assistant Director | —</row>
+            <row>6 | Director | —</row>
+        </table>
+    </screen>
+    <screen title="Mishaps" button_text="Mishaps" button_group="Agent">
+        <table>
+            <columns>1D | Mishap</columns>
+            <row>1 | Severely injured (this is the same as a result of 2 on the Injury table). Alternatively, roll twice on the Injury table and take the lower result.</row>
+            <row>2 | A criminal or other figure under investigation offers you a deal. Accept and you leave this career without further penalty (although you lose the Benefit roll as normal). Refuse and you must roll twice on the Injury table and take the lower result. You gain an Enemy and one level in any skill you choose.</row>
+            <row>3 | An investigation goes critically wrong or leads to the top, ruining your career. Roll Advocate 8+. If you succeed, you may keep the Benefit roll from this term. If you roll 2, you must take the Prisoner career in your next term.</row>
+            <row>4 | You learn something you should not know and people want to kill you for it. Gain an Enemy and Deception 1.</row>
+            <row>5 | Your work ends up coming home with you and someone gets hurt. Choose one of your Contacts, Allies or family members and roll twice on the Injury table for them, taking the lower result.</row>
+            <row>6 | Injured. Roll on the Injury table.</row>
+        </table>
+    </screen>
+    <screen title="Events" button_text="Events" button_group="Agent">
+        <table>
+            <columns>2D | Event</columns>
+            <row>2 | Disaster! Roll on the Mishap table but you are not ejected from this career.</row>
+            <row>3 | An investigation takes on a dangerous turn. Roll Investigate 8+ or Streetwise 8+. If you fail, roll on the Mishap table. If you succeed, increase one of these skills by one level: Deception, Jack-of-allTrades, Persuade or Tactics.</row>
+            <row>4 | You complete a mission for your superiors and are suitably rewarded. Gain DM+1 to any one Benefit roll from this career.</row>
+            <row>5 | You establish a network of contacts. Gain D3 Contacts.</row>
+            <row>6 | You are given advanced training in a specialist field. Roll EDU 8+ to increase any one skill you already have by one level.</row>
+            <row>7 | Life Event. Roll on the Life Events table.</row>
+            <row>8 | You go undercover to investigate an enemy. Roll Deception 8+. If you succeed, roll immediately on the Rogue or Citizen Events table and make one roll on any Specialist skill table for that career. If you fail, roll immediately on the Rogue or Citizen Mishap table.</row>
+            <row>9 | You go above and beyond the call of duty. Gain DM+2 to your next advancement roll.</row>
+            <row>10 | You are given specialist training in vehicles. Gain one of Drive 1, Flyer 1, Pilot 1 or Gunner 1.</row>
+            <row>11 | You are befriended by a senior agent. Either increase Investigate by one level or DM+4 to an advancement roll thanks to their aid.</row>
+            <row>12 | Your efforts uncover a major conspiracy against your employers. You are automatically promoted.</row>
+        </table>
+    </screen>
 </screens>
