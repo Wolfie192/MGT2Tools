@@ -1,0 +1,148 @@
+<screens>
+    <screen title="Introduction" button_text="Intro" button_group="General Info">
+        <paragraph>
+            Instead of choosing a class and various skills or abilities, in Traveller you start off as a bright-eyed 18 year old with the whole universe at your feet. You will then decide what kind of career you might want to pursue and then watch as your Traveller’s life unfolds – very possibly in a completely different direction!
+        </paragraph>
+        <paragraph>
+            When you have finished this process, you will be ready for play with a Traveller who has history and a full career (successful or otherwise) behind them. They will now be ready for the next phase of their life, one full of excitement and adventure…
+        </paragraph>
+        <paragraph>
+            It should be noted that there are no ‘super’ characters in Traveller. This game is very much based around the idea of putting ordinary people in extraordinary situations and of playing with the cards that the universe has dealt you. Be ready to make the best of what you get – much like real life (although real life tends to lack starships, exploding suns and eight foot tall intelligent lion-like aliens).
+        </paragraph>
+        <paragraph>
+            So, another Traveller may end up as a battle-hardened marine who can shoot out a fox’s eye at 100 paces with any weapon in Charted Space but your failed rock star who never managed to get anywhere in their career may well have more to contribute to the group. After all, not every problem can be solved with a gun. In fact, in Traveller, a gun may cause more issues than it solves.
+        </paragraph>
+    </screen>
+    <screen title="Creation Summary" button_text="Summary" button_group="General Info">
+        <paragraph>
+            A Traveller’s abilities and skills are determined by training and past experience. Traveller creation begins with rolling characteristics, six values that describe your initial physical and mental capabilities. After determining characteristics and a few background skills from adolescent life, it is time to embark on a career. Each Traveller goes through one or more four-year career terms, which grant various skills and benefits. There are risks associated with each career – serving a tour of duty in the Imperial Marines may give a Traveller a good grounding in combat and weapons use but there is always the risk of injury in battle. A term spent in a corporation is unlikely to get a Traveller injured or killed but will not usually provide skills valuable in combat.
+        </paragraph>
+        <paragraph>
+            In addition to skills, Travellers pick up benefits such as cash, equipment or contacts from a career. However, there are limits on how many career terms a Traveller can go through – the risks of aging or injury mount up over time and some Travellers will move between two or three careers in their lives. At some point, you will decide to leave your career for a new life of adventure before your Traveller gets too old.
+        </paragraph>
+        <paragraph>
+        While going through a career, you can establish ties between your Traveller and those of the other players, so everyone will be old friends (or rivals!) before play begins. You will also be able to pick a skills package after everyone has finished creating their Travellers, which will allow you to fill any gaps in the group’s skill range.
+        </paragraph>
+    </screen>
+    <screen title="Characteristics" button_text="Characteristics" button_group="General Info">
+        <paragraph>
+            Every person in Traveller, human and alien, has several characteristics that describe their base mental and physical potential. The basic characteristics for humans are shown here.
+        </paragraph>
+        <ul heading="Physical Characteristics">
+            <li bold="Strength (STR)">
+                A Traveller’s physical strength, fitness and forcefulness.
+            </li>
+            <li bold="Dexterity (DEX)">
+                Physical co-ordination and agility, reflexes.
+            </li>
+            <li bold="Endurance (END)">
+                A Traveller’s stamina, determination and ability to sustain damage.
+            </li>
+        </ul>
+        <ul heading="Mental Characteristics">
+            <li bold="Intellect (INT)">
+                A Traveller’s intelligence and quickness of mind.
+            </li>
+            <li bold="Education (EDU)">
+                A measure of a Traveller’s learning and experience.
+            </li>
+            <li bold="Social Standing (SOC)">
+                A Traveller’s place in society.
+            </li>
+        </ul>
+    </screen>
+    <screen title="Rolling Characteristics" button_text="Rolling Characteristics" button_group="General Info">
+        <paragraph>
+            To determine your Traveller’s characteristics, roll 2D one after another and assign the scores in any order you wish to the six characteristics, starting with STR. Record them on your character sheet.
+        </paragraph>
+        <paragraph>
+            Alternatively, you may wish instead to assign each score to the characteristics in order, starting with STR, then DEX, then END and so on. After all, we do not get to decide how strong or smart we are before we are born!
+        </paragraph>
+        <paragraph>
+            For each characteristic, determine its Dice Modifier (DM) on the Characteristic Modifiers table.
+        </paragraph>
+        <table header="Characteristic Modifier">
+            <columns>Characteristic Score | Dice Modifier</columns>
+            <row>0 | -3</row>
+            <row>1-2 | -2</row>
+            <row>3-5 | -1</row>
+            <row>6-8 | +0</row>
+            <row>9-11 | +1</row>
+            <row>12-14 | +2</row>
+            <row>15+ | +3</row>
+        </table>
+        <paragraph>
+            As you progress through your career, you may find your characteristics change.
+        </paragraph>
+        <paragraph>
+            The maximum score for a characteristic is 15 for an unaugmented Traveller. There are exceptions to this but they will be covered later for specific rules and circumstances.
+        </paragraph>
+    </screen>
+    <screen title="Skills" button_text="Skills" button_group="General Info">
+        <paragraph>
+            Skills are the most important aspect of a Traveller. A Traveller’s proficiency in any skill is denoted by their level in that skill.
+        </paragraph>
+        <paragraph heading="Background Skills">
+            Before embarking on your careers, you receive a number of background skills equal to your EDU DM +3 (so, 0 to 6, depending on your EDU score), chosen from the list here. This represents the knowledge you have picked up during adolescence and will allow you to function at a basic level in a technological society.
+        </paragraph>
+        <paragraph>
+
+        </paragraph>
+        <table>
+            <row>Admin 0 | Electronics 0 | Science 0</row>
+            <row>Animals 0 | Flyer 0 | Seafarer 0</row>
+            <row>Art 0 | Language 0 | Streetwise 0</row>
+            <row>Athletics 0 | Mechanic 0 | Survival 0</row>
+            <row>Carouse 0 | Medic 0 | Vacc Suit 0</row>
+            <row>Drive 0 | Profession 0</row>
+        </table>
+        <paragraph>
+            At this point, you are 18 years old and ready to take on the universe!
+        </paragraph>
+    </screen>
+    <screen title="Careers" button_text="Careers" button_group="General Info">
+        <paragraph>
+            Next, your Traveller engages in one or more career terms, representing their experiences and adventures before the start of the campaign. Each career term lasts for four years, even if a Traveller fails a Survival roll or is forced to leave a career.
+        </paragraph>
+        <paragraph>
+            At many points during a career, a Traveller will have to make a dice roll of some sort. Many of these rolls are based on characteristics – simply roll 2D, add the DM from the listed characteristic and try to get a total higher than or equal to the listed value.
+        </paragraph>
+        <paragraph>
+            So, a roll of INT 8+ means ‘roll 2D, add your Intellect DM and you succeed if you roll an 8 or more’.
+        </paragraph>
+        <paragraph>
+            A few rolls are skill checks, where you add any levels in that skill. For example, a roll of Gun Combat 8+ would mean ‘roll 2D, add your Gun Combat skill level and get 8 or more to succeed’.
+        </paragraph>
+        <paragraph>
+            In each career, there are three assignments, representing different aspects of the career. Pick one of these assignments when you enter the career.
+        </paragraph>
+    </screen>
+    <screen title="Pre-Career Education" button_text="Pre-Careers" button_group="General Info">
+        <paragraph>
+            Before a Traveller embarks on a lifelong career, there are educational options that may be worth considering. These are going to university or attending a military academy.
+        </paragraph>
+        <paragraph>
+            This usually takes place in a Traveller’s first term (in place of a career), although it can be delayed up until the third term if a term or two in a career is desired. From term four onwards, pre-career education is no longer available.
+        </paragraph>
+        <paragraph>
+            A Traveller can select university or military academy, making a roll for successful entry. If this is failed, the Traveller must immediately attempt entry into a career and, failing that, be drafted as normal. Further attempts can be made in terms two and three if desired but only one attempt can be made for entry to one of these precareer options in any one term.
+        </paragraph>
+        <paragraph>
+            Once successful entry has been achieved, the Traveller will gain any skills noted and roll on the Pre-career Events table. Upon successful graduation, one or more benefits will be awarded. Unlike a career, there is no mustering out or gaining of anything else other than the benefits listed. If graduation is not achieved, then no benefits are gained although the Traveller will still have earned some skills during this time.
+        </paragraph>
+        <paragraph>
+            After successful graduation, a Traveller may attempt to enter a career of their choice as normal, although they may have earned bonuses or automatic entry to certain careers, as listed under graduation benefits.
+        </paragraph>
+    </screen>
+    <screen title="Qualification" button_text="Qualification" button_group="Career Descriptions">
+        <paragraph>
+            This is what you need to roll to enter that career.
+        </paragraph>
+        <paragraph>
+            If you fail this check, you cannot enter your chosen career this term. You must either submit to the draft or take the Drifter career for this term. If you leave a career, you cannot return to it in the next term.
+        </paragraph>
+        <paragraph>
+            The draft and the Drifter career are exceptions to this rule – you can be drafted into a career you were previously in but got ejected from and the Drifter career is always open.
+        </paragraph>
+    </screen>
+</screens>
