@@ -2,6 +2,7 @@ import sys
 import os
 import xml.etree.ElementTree as ET
 import markdown
+from pathlib import Path
 from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QScrollArea, QFrame, QGridLayout
 from PyQt6.QtCore import pyqtSignal, Qt
 
@@ -186,7 +187,8 @@ class ControlPanel(QWidget):
 
         # --- XML PARSING LOGIC ---
         # We load the XML file relative to where this script is saved
-        xml_path = "C:/Users/Wolfie/PycharmProjects/MGT2Tools/screens.xml"
+
+        xml_path = Path("./screens.xml")
         if os.path.exists(xml_path):
             tree = ET.parse(xml_path)
             root = tree.getroot()
