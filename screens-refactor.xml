@@ -1,0 +1,661 @@
+<screens>
+    <group title="General Info">
+        <screen title="Introduction" button="Intro">
+            <paragraph>
+                Instead of choosing a class and various skills or abilities, in Traveller you start off as a bright-eyed 18 year old with the whole universe at your feet. You will then decide what kind of career you might want to pursue and then watch as your Traveller’s life unfolds – very possibly in a completely different direction!
+            </paragraph>
+            <paragraph>
+                When you have finished this process, you will be ready for play with a Traveller who has history and a full career (successful or otherwise) behind them. They will now be ready for the next phase of their life, one full of excitement and adventure…
+            </paragraph>
+            <paragraph>
+                It should be noted that there are no ‘super’ characters in Traveller. This game is very much based around the idea of putting ordinary people in extraordinary situations and of playing with the cards that the universe has dealt you. Be ready to make the best of what you get – much like real life (although real life tends to lack starships, exploding suns and eight foot tall intelligent lion-like aliens).
+            </paragraph>
+            <paragraph>
+                So, another Traveller may end up as a battle-hardened marine who can shoot out a fox’s eye at 100 paces with any weapon in Charted Space but your failed rock star who never managed to get anywhere in their career may well have more to contribute to the group. After all, not every problem can be solved with a gun. In fact, in Traveller, a gun may cause more issues than it solves.
+            </paragraph>
+        </screen>
+        <screen title="Creation Summary" button="Summary">
+            <paragraph>
+                A Traveller’s abilities and skills are determined by training and past experience. Traveller creation begins with rolling characteristics, six values that describe your initial physical and mental capabilities. After determining characteristics and a few background skills from adolescent life, it is time to embark on a career. Each Traveller goes through one or more four-year career terms, which grant various skills and benefits. There are risks associated with each career – serving a tour of duty in the Imperial Marines may give a Traveller a good grounding in combat and weapons use but there is always the risk of injury in battle. A term spent in a corporation is unlikely to get a Traveller injured or killed but will not usually provide skills valuable in combat.
+            </paragraph>
+            <paragraph>
+                In addition to skills, Travellers pick up benefits such as cash, equipment or contacts from a career. However, there are limits on how many career terms a Traveller can go through – the risks of aging or injury mount up over time and some Travellers will move between two or three careers in their lives. At some point, you will decide to leave your career for a new life of adventure before your Traveller gets too old.
+            </paragraph>
+            <paragraph>
+            While going through a career, you can establish ties between your Traveller and those of the other players, so everyone will be old friends (or rivals!) before play begins. You will also be able to pick a skills package after everyone has finished creating their Travellers, which will allow you to fill any gaps in the group’s skill range.
+            </paragraph>
+        </screen>
+        <screen title="Characteristics" button="Characteristics">
+            <paragraph>
+                Every person in Traveller, human and alien, has several characteristics that describe their base mental and physical potential. The basic characteristics for humans are shown here.
+            </paragraph>
+            <ul heading="Physical Characteristics">
+                <li bold="Strength (STR)">
+                    A Traveller’s physical strength, fitness and forcefulness.
+                </li>
+                <li bold="Dexterity (DEX)">
+                    Physical co-ordination and agility, reflexes.
+                </li>
+                <li bold="Endurance (END)">
+                    A Traveller’s stamina, determination and ability to sustain damage.
+                </li>
+            </ul>
+            <ul heading="Mental Characteristics">
+                <li bold="Intellect (INT)">
+                    A Traveller’s intelligence and quickness of mind.
+                </li>
+                <li bold="Education (EDU)">
+                    A measure of a Traveller’s learning and experience.
+                </li>
+                <li bold="Social Standing (SOC)">
+                    A Traveller’s place in society.
+                </li>
+            </ul>
+        </screen>
+        <screen title="Rolling Characteristics" button="Rolling Characteristics">
+            <paragraph>
+                To determine your Traveller’s characteristics, roll 2D one after another and assign the scores in any order you wish to the six characteristics, starting with STR. Record them on your character sheet.
+            </paragraph>
+            <paragraph>
+                Alternatively, you may wish instead to assign each score to the characteristics in order, starting with STR, then DEX, then END and so on. After all, we do not get to decide how strong or smart we are before we are born!
+            </paragraph>
+            <paragraph>
+                For each characteristic, determine its Dice Modifier (DM) on the Characteristic Modifiers table.
+            </paragraph>
+            <table header="Characteristic Modifier">
+                <columns>Characteristic Score | Dice Modifier</columns>
+                <row>0 | -3</row>
+                <row>1-2 | -2</row>
+                <row>3-5 | -1</row>
+                <row>6-8 | +0</row>
+                <row>9-11 | +1</row>
+                <row>12-14 | +2</row>
+                <row>15+ | +3</row>
+            </table>
+            <paragraph>
+                As you progress through your career, you may find your characteristics change.
+            </paragraph>
+            <paragraph>
+                The maximum score for a characteristic is 15 for an unaugmented Traveller. There are exceptions to this but they will be covered later for specific rules and circumstances.
+            </paragraph>
+        </screen>
+        <screen title="Skills" button="Skills">
+            <paragraph>
+                Skills are the most important aspect of a Traveller. A Traveller’s proficiency in any skill is denoted by their level in that skill.
+            </paragraph>
+            <paragraph heading="Background Skills">
+                Before embarking on your careers, you receive a number of background skills equal to your EDU DM +3 (so, 0 to 6, depending on your EDU score), chosen from the list here. This represents the knowledge you have picked up during adolescence and will allow you to function at a basic level in a technological society.
+            </paragraph>
+            <paragraph>
+
+            </paragraph>
+            <table>
+                <row>Admin 0 | Electronics 0 | Science 0</row>
+                <row>Animals 0 | Flyer 0 | Seafarer 0</row>
+                <row>Art 0 | Language 0 | Streetwise 0</row>
+                <row>Athletics 0 | Mechanic 0 | Survival 0</row>
+                <row>Carouse 0 | Medic 0 | Vacc Suit 0</row>
+                <row>Drive 0 | Profession 0</row>
+            </table>
+            <paragraph>
+                At this point, you are 18 years old and ready to take on the universe!
+            </paragraph>
+        </screen>
+        <screen title="Life Events" button="Life Events Table">
+            <table>
+                <columns>2D | Event</columns>
+                <row>2 | **Sickness or Injury:** You are injured or become sick. Roll on the Injury table.</row>
+                <row>3 | **Birth or Death:** Someone close to you dies, like a friend or family member. Alternatively, someone close to you gives birth (or is born!). You are involved in some fashion (father or mother, relative, godparent and so forth).</row>
+                <row>4 | **Ending of Relationship:** A romantic relationship involving you ends. Badly. Gain a Rival or Enemy.</row>
+                <row>5 | **Improved Relationship:** A romantic relationship involving you deepens, possibly leading to marriage or some other emotional commitment. Gain an Ally.</row>
+                <row>6 | **New Relationship:** You become involved in a romantic relationship. Gain an Ally.</row>
+                <row>7 | **New Contact:** You gain a new Contact.</row>
+                <row>8 | **Betrayal:** You are betrayed in some fashion by a friend. If you have any Contacts or Allies, convert one into a Rival or Enemy. Otherwise, gain a Rival or an Enemy.</row>
+                <row>9 | **Travel:** You move to another world. You gain DM+2 to your next qualification roll.</row>
+                <row>10 | **Good Fortune:** Something good happens to you; you come into money unexpectedly, have a lifelong dream come true, get a book published or have some other stroke of good fortune. Gain DM+2 to any one Benefit roll.</row>
+                <row>11 | **Crime:** You commit or are the victim (or are accused) of a crime. Lose one Benefit roll or take the Prisoner career in your next term.</row>
+                <row>
+                    12 | **Unusual Event:** Something weird happens. Roll 1D:
+                    <ul>
+                        <li>1 - **Psionics:** You encounter a Psionic institute. You may immediately test your Psionic Strength and, if you qualify, take the Psion career in your next term.</li>
+                        <li>2 - **Aliens:** You spend time among an alien species. Gain Science 1 and a Contact among an alien species.</li>
+                        <li>3 - **Alien Artefact:** You have a strange and unusual device from an alien culture that is not normally available to humans.</li>
+                        <li>4 - **Amnesia:** Something happened to you but you do not know what it was.</li>
+                        <li>5 - **Contact with Government:** You briefly came into contact with the highest echelons of the Imperium – an Archduke or the Emperor, perhaps, or Imperial intelligence.</li>
+                        <li>6 - **Ancient Technology:** You have something older than the Imperium or even something older than humanity.</li>
+                    </ul>
+                </row>
+            </table>
+        </screen>
+    </group>
+    <group title="Pre-Career Education">
+        <screen title="Pre-Career Education" button="Pre-Careers">
+            <paragraph>
+                Before a Traveller embarks on a lifelong career, there are educational options that may be worth considering. These are going to university or attending a military academy.
+            </paragraph>
+            <paragraph>
+                This usually takes place in a Traveller’s first term (in place of a career), although it can be delayed up until the third term if a term or two in a career is desired. From term four onwards, pre-career education is no longer available.
+            </paragraph>
+            <paragraph>
+                A Traveller can select university or military academy, making a roll for successful entry. If this is failed, the Traveller must immediately attempt entry into a career and, failing that, be drafted as normal. Further attempts can be made in terms two and three if desired but only one attempt can be made for entry to one of these precareer options in any one term.
+            </paragraph>
+            <paragraph>
+                Once successful entry has been achieved, the Traveller will gain any skills noted and roll on the Pre-career Events table. Upon successful graduation, one or more benefits will be awarded. Unlike a career, there is no mustering out or gaining of anything else other than the benefits listed. If graduation is not achieved, then no benefits are gained although the Traveller will still have earned some skills during this time.
+            </paragraph>
+            <paragraph>
+                After successful graduation, a Traveller may attempt to enter a career of their choice as normal, although they may have earned bonuses or automatic entry to certain careers, as listed under graduation benefits.
+            </paragraph>
+        </screen>
+        <group title="University">
+            <screen title="University" button="Entry"></screen>
+            <screen title="Skills" button="Skills"></screen>
+            <screen title="Graduation" button="Graduation"></screen>
+        </group>
+        <group title="Military Academy">
+            <screen title="Military Academy" button="Entry"></screen>
+            <screen title="Skills" button="Skills"></screen>
+            <screen title="Graduation" button="Graduation"></screen>
+        </group>
+        <screen title="Pre-Career Events" button="Events"></screen>
+    </group>
+    <group title="Careers">
+        <group title="Career Descriptions">
+            <screen title="Careers" button="Careers">
+                <paragraph>
+                    Next, your Traveller engages in one or more career terms, representing their experiences and adventures before the start of the campaign. Each career term lasts for four years, even if a Traveller fails a Survival roll or is forced to leave a career.
+                </paragraph>
+                <paragraph>
+                    At many points during a career, a Traveller will have to make a dice roll of some sort. Many of these rolls are based on characteristics – simply roll 2D, add the DM from the listed characteristic and try to get a total higher than or equal to the listed value.
+                </paragraph>
+                <paragraph>
+                    So, a roll of INT 8+ means ‘roll 2D, add your Intellect DM and you succeed if you roll an 8 or more’.
+                </paragraph>
+                <paragraph>
+                    A few rolls are skill checks, where you add any levels in that skill. For example, a roll of Gun Combat 8+ would mean ‘roll 2D, add your Gun Combat skill level and get 8 or more to succeed’.
+                </paragraph>
+                <paragraph>
+                    In each career, there are three assignments, representing different aspects of the career. Pick one of these assignments when you enter the career.
+                </paragraph>
+            </screen>
+            <screen title="Qualification" button="Qualification">
+                <paragraph>
+                    This is what you need to roll to enter that career.
+                </paragraph>
+                <paragraph>
+                    If you fail this check, you cannot enter your chosen career this term. You must either submit to the draft or take the Drifter career for this term. If you leave a career, you cannot return to it in the next term.
+                </paragraph>
+                <paragraph>
+                    The draft and the Drifter career are exceptions to this rule – you can be drafted into a career you were previously in but got ejected from and the Drifter career is always open.
+                </paragraph>
+            </screen>
+            <screen title="Skills and Training" button="Skills/Training">
+                <paragraph>
+                    Each career has four or five types of skill table associated with it – Personal Development, Service Skills, Assignment Skills (divided into three sub-tables corresponding to assignments), Officer and Advanced Education. In each term you spend in a career, pick one of these tables and roll 1D to see which skill you increase.
+                </paragraph>
+                <paragraph>
+                    You may only roll on the Advanced Education or Commissioned tables if you have the listed requirement (usually EDU 8 or higher, or a certain rank).
+                </paragraph>
+                <paragraph>
+                    Skills can be listed with or without an associated level. If no specific level is listed, then you gain that skill at level 1 if you do not have it already, or increase its level by +1 if you are already trained in that field. If a level is listed, then you gain the skill at that level so long as it is higher than your current level in the skill.
+                </paragraph>
+                <paragraph>
+                    For example, Gambler 0 would mean you receive the Gambler skill at level 0. This is of benefit to you only if you have no Gambler skill.
+                </paragraph>
+                <paragraph>
+                    Vacc Suit would mean you increase your Vacc Suit skill by +1 or gain it at level 1 if you have no Vacc Suit skill to begin with. If you have Vacc Suit 0, it increases to 1, if you have Vacc Suit 2 it rises to 3 and so forth.
+                </paragraph>
+                <paragraph>
+                    Streetwise 1 would mean you get the Streetwise skill at level 1. If your Streetwise skill is already 1 or more, then this is of no benefit to you. If you have no Streetwise skill, or it is only at 0, you jump straight to Streetwise 1.
+                </paragraph>
+            </screen>
+            <screen title="Skill Limits" button="Skill Limits">
+                <paragraph>
+                    A skill may never be increased beyond level 4 during Traveller creation. Once a skill has reached level 4, any additional increases are lost. In addition, a Traveller may never have a total number of skill levels higher than three times their combined INT and EDU.
+                </paragraph>
+            </screen>
+            <screen title="Basic Training" button="Basic Training">
+                <paragraph>
+                    For your first career only, instead of rolling for a skill, you get all the skills listed on the Service Skills table at level 0 as your basic training. For subsequent careers, you may pick any one skill listed in the Service Skills table at level 0 as your basic training.
+                </paragraph>
+                <paragraph>
+                    Citizens and Drifters are an exception to this. They both use their appropriate Assignment Skills for basic training.
+                </paragraph>
+            </screen>
+            <screen title="Survival" button="Survival">
+                <paragraph>
+                    Each career has a survival roll. If you fail this roll, you must immediately roll on the Mishap table for the career. This mishap will force you to leave the career immediately unless otherwise stated. You will also lose the Benefit roll for the current term. A natural 2 on the survival roll is always a failure.
+                </paragraph>
+            </screen>
+            <screen title="Events" button="Events">
+                <paragraph>
+                    If you are still in your career after resolving the survival roll, roll on the career’s Events table to see what interesting things befall you this term.
+                </paragraph>
+            </screen>
+            <screen title="Advancement" button="Advancement">
+                <paragraph>
+                    Each career has an advancement roll to represent your successful (or otherwise) path through the career. You start each career at rank 0.
+                </paragraph>
+                <paragraph>
+                    If you make a successful advancement roll, move to the next higher rank and gain an extra roll on any of the skill tables available for your career. You also get any bonuses listed for your new rank. You may only attempt to advance once per term.
+                </paragraph>
+                <paragraph>
+                    If your advancement roll is equal to or less than the number of terms you have spent in this career, then you cannot continue in this career after this term. Either your services are no longer required, or events have caused you to leave, or perhaps you are simply bored and want a new challenge.
+                </paragraph>
+                <paragraph>
+                    If you roll a natural 12, then you must continue in this career. You are too valuable to lose and will be strongarmed into staying.
+                </paragraph>
+            </screen>
+            <screen title="Commission" button="Commission">
+                <paragraph>
+                    This only applies to the military careers of Army, Navy and Marines. A Traveller who succeeds at a commission roll becomes a rank 1 officer in that career and progresses on the officer’s rank table from then on. Trying for a commission is optional.
+                </paragraph>
+                <paragraph>
+                    You may only attempt to gain a commission in your first term unless your SOC is 9 or higher, in which case you may try for a commission in any term. However, there is DM-1 applied to commission rolls for every term after the first.
+                </paragraph>
+                <paragraph>
+                    Some events give a bonus DM to advancement rolls or grant automatic advancement. You can apply these DMs to commission rolls also.
+                </paragraph>
+                <paragraph>
+                    If you gain a commission, you may not roll for advancement in the same term. Travellers can still roll for advancement if they fail a commission roll.
+                </paragraph>
+            </screen>
+            <screen title="Ranks and Bonuses" button="Ranks/Bonuses">
+                <paragraph>
+                    You begin at rank 0 in a new career. Each time you succeed with an advancement roll, you move up to the next rank. Ranks are most important for military careers, such as the Army or Navy, but every career has its own internal hierarchies and levels of authority and responsibility. However, not all ranks have a title like the military.
+                </paragraph>
+                <paragraph>
+                    Some ranks have bonuses associated with them, such as extra skills. These are acquired immediately upon attaining the rank.
+                </paragraph>
+            </screen>
+            <screen title="Benefits" button="Benefits">
+                <paragraph>
+                    When you leave a career for any reason, you gain material benefits from that career, representing money, equipment and influence acquired during your years of work.
+                </paragraph>
+            </screen>
+            <screen title="Drifters and the Draft" button="Drifters/Draft">
+                <paragraph>
+                    You may attempt to enlist in one career each term if you are not continuing with an existing career. If you fail to qualify for a new career, you have two options. You can either apply to the draft, and be randomly sent to one of the military services, or you may spend that term travelling as a Drifter, without true career or purpose. A Traveller may only enter the draft once in their lifetime unless otherwise stated.
+                </paragraph>
+                <table header="Draft Table">
+                    <columns>1D | Career (assignment)</columns>
+                    <row>1 | Navy (any)</row>
+                    <row>2 | Army (any)</row>
+                    <row>3 | Marine (any)</row>
+                    <row>4 | Merchant (merchant marine)</row>
+                    <row>5 | Scout (any)</row>
+                    <row>6 | Agent (law enforcement)</row>
+                </table>
+            </screen>
+            <screen title="Changing Careers" button="Changing Careers">
+                <paragraph>
+                    A Traveller may get forced out of a career due to a mishap or event, or may simply leave voluntarily to pursue a more exciting or more lucrative life elsewhere.
+                </paragraph>
+                <paragraph>
+                    To enter a new career, a Traveller need only make the appropriate qualification roll at the start of a new term. If they fail, they must either submit to the draft (if they have not already done so earlier in life) or become a Drifter.
+                </paragraph>
+            </screen>
+            <screen title="Changing Assignments" button="Changing Assignments">
+                <paragraph>
+                    Instead of a whole new career, a Traveller may instead be interested in focussing on another aspect of their existing career by changing their assignment.
+                </paragraph>
+                <paragraph>
+                    For assignments in the Army, Marine, Navy, Nobility, Rogue, Scholar or Scout career, this simply requires a qualification roll. If this is unsuccessful, the Traveller continues in the career with the same assignment they had before without penalty. If the qualification roll is made, the Traveller now adopts the new assignment and continues in the career, retaining their rank.
+                </paragraph>
+                <paragraph>
+                    New assignments in the Agent, Citizen, Entertainer and Merchant careers are considered to be new careers. Upon voluntarily leaving the career (a change in assignment cannot be done if you have been ejected from the career – no one will hire you!), Benefit rolls are made as normal and a qualification roll is necessary to enter the assignment. If this is failed, the Traveller must enter the draft or become a Drifter.
+                </paragraph>
+                <paragraph>
+                    If the attempt to change assignment is successful, the career begins afresh with the new assignment, with the Traveller starting at rank 0.
+                </paragraph>
+            </screen>
+        </group>
+        <group title="Agent">
+            <screen title="Agent" button="Qualification">
+                <paragraph>
+                    Law enforcement agencies, corporate operatives, spies and others who work in the shadows.
+                </paragraph>
+                <paragraph> </paragraph>
+                <paragraph>
+                    **Qualification:** INT 6+
+                    DM-1 for every previous career
+                </paragraph>
+            </screen>
+            <screen title="Assignments" button="Assignments">
+                <paragraph>
+                    Choose one of the following:
+                </paragraph>
+                <paragraph>
+                    **Law Enforcement:** You are a police officer or detective.
+                </paragraph>
+                <paragraph>
+                    **Intelligence:** You work as a spy or saboteur.
+                </paragraph>
+                <paragraph>
+                    **Corporate:** You work for a corporation, spying on rival organisations.
+                </paragraph>
+            </screen>
+            <screen title="Career Progress" button="Career Progress">
+                <table>
+                    <columns> | Survival | Advancement</columns>
+                    <row>Law Enforcement | END 6+ | INT 6+</row>
+                    <row>Intelligence | INT 7+ | INT 5+</row>
+                    <row>Corporate | INT 5+ | INT 7+</row>
+                </table>
+            </screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out">
+                <table>
+                    <columns>1D | Cash | Benefits</columns>
+                    <row>1 | Cr1,000 | Scientific Equipment</row>
+                    <row>2 | Cr2,000 | INT +1</row>
+                    <row>3 | Cr5,000 | Ship Share</row>
+                    <row>4 | Cr7,500 | Weapon</row>
+                    <row>5 | Cr10,000 | Cybernetic Implant</row>
+                    <row>6 | Cr25,000 | SOC +1 or Cybernetic Implant</row>
+                    <row>7 | Cr50,000 | TAS Membership</row>
+                </table>
+            </screen>
+            <screen title="Skills and Training" button="Skill Tables">
+                <table>
+                    <columns>1D | Personal Development | Service Skills | Advanced Education (Min. EDU 8)</columns>
+                    <row>1 | Gun Combat | Streetwise | Advocate</row>
+                    <row>2 | DEX +1 | Drive | Language</row>
+                    <row>3 | END +1 | Investigate | Explosives</row>
+                    <row>4 | Melee | Flyer | Medic</row>
+                    <row>5 | INT +1 | Recon | Vacc Suit</row>
+                    <row>6 | INT +1 | Recon | Vacc Suit</row>
+                </table>
+                <table>
+                    <columns>1D | Law Enforcement | Intelligence | Corporate</columns>
+                    <row>1 | Investigate | Investigate | Investigate</row>
+                    <row>2 | Recon | Recon | Electronics (computers)</row>
+                    <row>3 | Streetwise | Electronics (comms) | Stealth</row>
+                    <row>4 | Stealth | Stealth | Carouse</row>
+                    <row>5 | Melee | Persuade | Deception</row>
+                    <row>6 | Advocate | Deception | Streetwise</row>
+                </table>
+            </screen>
+            <screen title="Ranks and Bonuses" button="Ranks">
+                <table>
+                    <columns>Rank | Law Enforcement | Skill or Bonus</columns>
+                    <row>0 | Rookie | —</row>
+                    <row>1 | Corporal | Streetwise 1</row>
+                    <row>2 | Sergeant | —</row>
+                    <row>3 | Detective | —</row>
+                    <row>4 | Lieutenant | Investigate 1</row>
+                    <row>5 | Chief | Admin 1</row>
+                    <row>6 | Commissioner | SOC +1</row>
+                </table>
+                <table>
+                    <columns>Rank | Intelligence/Corporate | Skill or Bonus</columns>
+                    <row>0 | — | —</row>
+                    <row>1 | Agent | Deception 1</row>
+                    <row>2 | Field Agent | Investigate 1</row>
+                    <row>3 | — | —</row>
+                    <row>4 | Special Agent | Gun Combat 1</row>
+                    <row>5 | Assistant Director | —</row>
+                    <row>6 | Director | —</row>
+                </table>
+            </screen>
+            <screen title="Mishaps" button="Mishaps">
+                <table>
+                    <columns>1D | Mishap</columns>
+                    <row>1 | Severely injured (this is the same as a result of 2 on the Injury table). Alternatively, roll twice on the Injury table and take the lower result.</row>
+                    <row>2 | A criminal or other figure under investigation offers you a deal. Accept and you leave this career without further penalty (although you lose the Benefit roll as normal). Refuse and you must roll twice on the Injury table and take the lower result. You gain an Enemy and one level in any skill you choose.</row>
+                    <row>3 | An investigation goes critically wrong or leads to the top, ruining your career. Roll Advocate 8+. If you succeed, you may keep the Benefit roll from this term. If you roll 2, you must take the Prisoner career in your next term.</row>
+                    <row>4 | You learn something you should not know and people want to kill you for it. Gain an Enemy and Deception 1.</row>
+                    <row>5 | Your work ends up coming home with you and someone gets hurt. Choose one of your Contacts, Allies or family members and roll twice on the Injury table for them, taking the lower result.</row>
+                    <row>6 | Injured. Roll on the Injury table.</row>
+                </table>
+            </screen>
+            <screen title="Events" button="Events">
+                <table>
+                    <columns>2D | Event</columns>
+                    <row>2 | Disaster! Roll on the Mishap table but you are not ejected from this career.</row>
+                    <row>3 | An investigation takes on a dangerous turn. Roll Investigate 8+ or Streetwise 8+. If you fail, roll on the Mishap table. If you succeed, increase one of these skills by one level: Deception, Jack-of-allTrades, Persuade or Tactics.</row>
+                    <row>4 | You complete a mission for your superiors and are suitably rewarded. Gain DM+1 to any one Benefit roll from this career.</row>
+                    <row>5 | You establish a network of contacts. Gain D3 Contacts.</row>
+                    <row>6 | You are given advanced training in a specialist field. Roll EDU 8+ to increase any one skill you already have by one level.</row>
+                    <row>7 | Life Event. Roll on the Life Events table.</row>
+                    <row>8 | You go undercover to investigate an enemy. Roll Deception 8+. If you succeed, roll immediately on the Rogue or Citizen Events table and make one roll on any Specialist skill table for that career. If you fail, roll immediately on the Rogue or Citizen Mishap table.</row>
+                    <row>9 | You go above and beyond the call of duty. Gain DM+2 to your next advancement roll.</row>
+                    <row>10 | You are given specialist training in vehicles. Gain one of Drive 1, Flyer 1, Pilot 1 or Gunner 1.</row>
+                    <row>11 | You are befriended by a senior agent. Either increase Investigate by one level or DM+4 to an advancement roll thanks to their aid.</row>
+                    <row>12 | Your efforts uncover a major conspiracy against your employers. You are automatically promoted.</row>
+                </table>
+            </screen>
+        </group>
+        <group title="Army">
+            <screen title="Army" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Commission" button="Commission"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Citizen">
+            <screen title="Citizen" button="Citizen"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Drifter">
+            <screen title="Drifter" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Entertainer">
+            <screen title="Entertainer" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Marine">
+            <screen title="Marine" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Commission" button="Commission"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Merchant">
+            <screen title="Merchant" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Navy">
+            <screen title="Navy" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Commission" button="Commission"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Noble">
+            <screen title="Noble" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Prisoner">
+            <screen title="Prisoner" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Psion">
+            <screen title="Psion" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Rogue">
+            <screen title="Rogue" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Scholar">
+            <screen title="Scholar" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+        <group title="Scout">
+            <screen title="Scout" button="Qualification"></screen>
+            <screen title="Assignment" button="Assignment"></screen>
+            <screen title="Career Progress" button="Career Progress"></screen>
+            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
+            <screen title="Skills and Training" button="Skill Tables"></screen>
+            <screen title="Ranks and Bonuses" button="Ranks"></screen>
+            <screen title="Mishaps" button="Mishaps"></screen>
+            <screen title="Events" button="Events"></screen>
+        </group>
+    </group>
+    <group title="Benefits">
+        <screen title="Benefits" button="Intro"></screen>
+        <screen title="Cash Benefits" button="Cash"></screen>
+        <group title="Other Benefits">
+            <screen title="Armour" button="Armour"></screen>
+            <screen title="Ally" button="Ally"></screen>
+            <screen title="Blade" button="Blade"></screen>
+            <screen title="Characteristic Increase" button="Characteristic"></screen>
+            <screen title="Cybernetic Implant" button="Cybernetic Implant"></screen>
+            <screen title="Contact" button="Contact"></screen>
+            <screen title="Free Trader" button="Free Trader"></screen>
+            <screen title="Gun" button="Gun"></screen>
+            <screen title="Lab Ship" button="Lab Ship"></screen>
+            <screen title="Personal Vehicle" button="Personal Vehicle"></screen>
+            <screen title="Scientific Equipment" button="Scientific Equipment"></screen>
+            <screen title="Scout Ship" button="Scout Ship"></screen>
+            <screen title="Ship's Boat" button="Ship's Boat"></screen>
+            <screen title="Ship Shares" button="Ship Shares"></screen>
+            <screen title="Weapon" button="Weapon"></screen>
+            <screen title="TAS Membership" button="TAS Membership"></screen>
+            <screen title="Yatch" button="Yatch"></screen>
+        </group>
+    </group>
+    <group title="Misc">
+        <screen title="Pension" button="Pension"></screen>
+        <group title="Ageing">
+            <screen title="Ageing" button="Ageing"></screen>
+            <screen title="Ageing Crisis" button="Ageing Crisis"></screen>
+            <screen title="Anagathics" button="Anagathics"></screen>
+        </group>
+        <group title="Injuries">
+            <screen title="Injuries" button="Table"></screen>
+            <screen title="Medical Care" button="Medical Care"></screen>
+            <screen title="Medical Bills" button="Medical Bills"></screen>
+        </group>
+    </group>
+    <group title="Skills Packages">
+        <screen title="Traveller Skills Package" button="Traveller"></screen>
+        <screen title="Trader Skills Package" button="Trader"></screen>
+        <screen title="Explorer Skills Package" button="Explorer"></screen>
+        <screen title="Investigator Skills Package" button="Investigator"></screen>
+        <screen title="Mercenary Skills Package" button="Mercenary"></screen>
+        <screen title="Starship Skills Package" button="Starship"></screen>
+        <screen title="Diplomat Skills Package" button="Diplomat"></screen>
+        <screen title="Criminal Skills Package" button="Criminal"></screen>
+    </group>
+    <group title="Aliens">
+        <screen title="Creating Alien Travellers" button="Creating Alien Travellers"></screen>
+        <group title="Aslan">
+            <screen title="Aslan" button="Description"></screen>
+            <screen title="Characteristics" button="Characteristics"></screen>
+            <screen title="Traits" button="Traits"></screen>
+        </group>
+        <group title="Vargr">
+            <screen title="Vargr" button="Description"></screen>
+            <screen title="Characteristics" button="Characteristics"></screen>
+            <screen title="Traits" button="Traits"></screen>
+        </group>
+    </group>
+    <group title="Skills">
+        <screen title="Admin" button="Admin"></screen>
+        <screen title="Advocate" button="Advocate"></screen>
+        <screen title="Animals" button="Animals"></screen>
+        <screen title="Art" button="Art"></screen>
+        <screen title="Astrogation" button="Astrogation"></screen>
+        <screen title="Athletics" button="Athletics"></screen>
+        <screen title="Broker" button="Broker"></screen>
+        <screen title="Carouse" button="Carouse"></screen>
+        <screen title="Deception" button="Deception"></screen>
+        <screen title="Diplomat" button="Diplomat"></screen>
+        <screen title="Drive" button="Drive"></screen>
+        <screen title="Electronics" button="Electronics"></screen>
+        <screen title="Engineer" button="Engineer"></screen>
+        <screen title="Explosives" button="Explosives"></screen>
+        <screen title="Flyer" button="Flyer"></screen>
+        <screen title="Gambler" button="Gambler"></screen>
+        <screen title="Gunner" button="Gunner"></screen>
+        <screen title="Gun Combat" button="Gun Combat"></screen>
+        <screen title="Heavy Weapons" button="Heavy Weapons"></screen>
+        <screen title="Investigate" button="Investigate"></screen>
+        <screen title="Jack-of-all-Trades" button="Jack-of-all-Trades"></screen>
+        <screen title="Language" button="Language"></screen>
+        <screen title="Leadership" button="Leadership"></screen>
+        <screen title="Mechanic" button="Mechanic"></screen>
+        <screen title="Medic" button="Medic"></screen>
+        <screen title="Melee" button="Melee"></screen>
+        <screen title="Navigation" button="Navigation"></screen>
+        <screen title="Persruade" button="Persuade"></screen>
+        <screen title="Pilot" button="Pilot"></screen>
+        <screen title="Profession" button="Profession"></screen>
+        <screen title="Recon" button="Recon"></screen>
+        <screen title="Science" button="Science"></screen>
+        <screen title="Seafarer" button="Seafarer"></screen>
+        <screen title="Stealth" button="Stealth"></screen>
+        <screen title="Steward" button="Steward"></screen>
+        <screen title="Streetwise" button="Streetwise"></screen>
+        <screen title="Survival" button="Survival"></screen>
+        <screen title="Tactics" button="Tactics"></screen>
+        <screen title="Vacc Suit" button="Vacc Suit"></screen>
+    </group>
+</screens>
