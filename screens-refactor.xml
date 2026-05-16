@@ -19,6 +19,60 @@
                 While going through a career, you can establish ties between your Traveller and those of the other players, so everyone will be old friends (or rivals!) before play begins. You will also be able to pick a skills package after everyone has finished creating their Travellers, which will allow you to fill any gaps in the group’s skill range.
             </markdown>
         </button>
+        <subgroup title="Aliens">
+            <subsubgroup title="Aslan">
+                <button text="Aslan">
+                    <markdown>
+                        # Aslan
+                        ---
+                        The Aslan are the youngest of the great powers, an expansionist species of feuding clans and predatory warriors, eager to seize all the universe has to offer. Aslan are descended from four-limbed carnivorous pouncer stock, which was originally near the top of the food chain in the forests of their homeworld, Kusyu. True to their pouncer ancestry, Aslan are capable of short bursts of speed somewhat greater than that manageable by humans. They also have slightly superior hearing and night vision. Otherwise, they are one of the most human-like of all alien species, excepting, of course, the Vargr (who are, after all, genetically-altered mammalian stock originally from Earth).
+                        Early Terran explorers regarded the Aslan as ‘lionlike’ and the simile has stuck ever since, although the Aslan bear only a passing resemblance to terrestrial lions. Nonetheless, this early misnomer has influenced a great deal of human thinking about the Aslan, including terminology (the use of pride to translate ahriy, for instance) and ascribed behaviour – which is not at all leonine.
+                    </markdown>
+                </button>
+                <button text="Characteristics">
+                    <markdown>
+                        # Characteristics
+                        ---
+                        Aslan Travellers have the following modifiers applied to their characteristics: STR+2, DEX-2.
+                    </markdown>
+                </button>
+                <button text="Traits">
+                    <markdown>
+                        # Traits
+                        ---
+                        Aslan Travellers all possess the following traits:
+                        **Dewclaw:** All Aslan have a dewclaw, which can be extended to make for a vicious close combat weapon. The dewclaw uses the Melee (natural) skill and does 1D+2 damage.
+                        **Heightened Senses:** Aslan have better night vision, hearing and sense of smell than humans. All Aslan receive DM+1 to any Recon and Survival checks they have to make.
+                    </markdown>
+                </button>
+            </subsubgroup>
+            <subsubgroup title="Vargr">
+                <button text="Vargr">
+                    <markdown>
+                        # Vargr
+                        ---
+                        The Vargr are the only Major Race to have been uplifted by the Ancients, a fact that the Vargr are extremely proud of. They are typically seen by other species as aggressive pirates and scavengers but the Vargr actually have a diverse culture that is deeply rooted in their pack mentality and the desire for companionship, charisma and loyalty. Their constant struggle for charisma and leadership results in a culture fuelled by conflict and change.
+                        The Vargr are descended from carnivore/chaser stock; genetically engineered by the Ancients circa -300,000 from the genus Canis. The carnivores were transplanted from Terra to Lair/Grnouf in the Provence sector. The Vargr bear a close resemblance to their canine ancestry, as can be seen by their muzzle, tail and fur, although several anatomical modifications were made by the Ancients to the canine body structure. Vargr adopt a digitigrade stance (putting their weight on their toes rather than the soles of their feet) and many have a slight stoop.
+                    </markdown>
+                </button>
+                <button text="Characteristics">
+                    <markdown>
+                        # Characteristics
+                        ---
+                        Vargr Travellers have the following modifiers applied to their characteristics: STR-1, DEX+1, END-1.
+                    </markdown>
+                </button>
+                <button text="Traits">
+                    <markdown>
+                        # Traits
+                        ---
+                        Vargr Travellers all possess the following traits:
+                        **Bite:** All Vargr possess pronounced canines, which make for a nasty close combat weapon. This bite uses the Melee (natural) skill and does 1D+1 damage.
+                        **Heightened Senses:** Vargr have better hearing and sense of smell than humans. All Vargr receive DM+1 to any Recon and Survival checks they have to make. However, their eyesight is worse in darkness and they suffer DM-1 to any skill check requiring sight in dark conditions.
+                    </markdown>
+                </button>
+            </subsubgroup>
+        </subgroup>
         <button text="Characteristics">
             <markdown>
                 # Characteristics
@@ -73,6 +127,247 @@
                 | Carouse 0 | Medic 0 | Vacc Suit 0 |
                 | Drive 0 | Profession 0 | |
                 At this point, you are 18 years old and ready to take on the universe!
+            </markdown>
+        </button>
+        <button text="Life Events">
+            <markdown>
+                | 2D | Event |
+                | --- | --- |
+                | 2 | **Sickness or Injury:** You are injured or become sick. Roll on the Injury table. |
+                | 3 | **Birth or Death:** Someone close to you dies, like a friend or family member. Alternatively, someone close to you gives birth (or is born!). You are involved in some fashion (father or mother, relative, godparent and so forth). |
+                | 4 | **Ending of Relationship:** A romantic relationship involving you ends. Badly. Gain a Rival or Enemy. |
+                | 5 | **Improved Relationship:** A romantic relationship involving you deepens, possibly leading to marriage or some other emotional commitment. Gain an Ally. |
+                | 6 | **New Relationship:** You become involved in a romantic relationship. Gain an Ally. |
+                | 7 | **New Contact:** You gain a new Contact. |
+                | 8 | **Betrayal:** You are betrayed in some fashion by a friend. If you have any Contacts or Allies, convert one into a Rival or Enemy. Otherwise, gain a Rival or an Enemy. |
+                | 9 | **Travel:** You move to another world. You gain DM+2 to your next qualification roll. |
+                | 10 | **Good Fortune:** Something good happens to you; you come into money unexpectedly, have a lifelong dream come true, get a book published or have some other stroke of good fortune. Gain DM+2 to any one Benefit roll. |
+                | 11 | **Crime:** You commit or are the victim (or are accused) of a crime. Lose one Benefit roll or take the Prisoner career in your next term. |
+                | 12 | **Unusual Event:** Something weird happens. Roll 1D (see below table) |
+                ---
+                | 1D | Unusual Event |
+                | --- | --- |
+                | 1 | **Psionics:** You encounter a Psionic institute. You may immediately test your Psionic Strength and, if you qualify, take the Psion career in your next term. |
+                | 2 | **Aliens:** You spend time among an alien species. Gain Science 1 and a Contact among an alien species. |
+                | 3 | **Alien Artefact:** You have a strange and unusual device from an alien culture that is not normally available to humans. |
+                | 4 | **Amnesia:** Something happened to you but you do not know what it was. |
+                | 5 | **Contact with Government:** You briefly came into contact with the highest echelons of the Imperium – an Archduke or the Emperor, perhaps, or Imperial intelligence. |
+                | 6 | **Ancient Technology:** You have something older than the Imperium or even something older than humanity. |
+            </markdown>
+        </button>
+        <button text="Benefits">
+            <markdown>
+                # Benefits
+                ---
+                In the course of a Traveller’s career, they may manage to save some money. They may also acquire equipment and other benefits from their previous employers – a Scout might be mustered out of the service with a reserve Scout Ship, for example, or a Marine might get to keep their combat armour and so on. These are determined by Benefit rolls.
+                Benefits are gained when a Traveller leaves a career. A Traveller gets one Benefit roll for every full term served in that career. You also get extra Benefit rolls if you reached a high rank.
+                There are two columns for Benefit rolls in each career – the Cash column and the Other Benefits column. You may only roll on the Cash column a maximum of three times across all your careers.
+                ---
+                ### Benefits of Rank
+                | Highest Rank Reached | Bonus Benefit Rolls |
+                | --- | --- |
+                | 1-2 | 1 |
+                | 3-4 | 2 |
+                | 5-6 | 3, and DM+1 to all Benefit rolls from this career |
+            </markdown>
+        </button>
+        <button text="Cash Benefits">
+            <markdown>
+                # Cash Benefits
+                ---
+                A Traveller with the Gambler skill gains DM+1 to all rolls on Cash columns.
+                If the Traveller has any money left, they may purchase personal equipment worth up to Cr10000 before they start adventuring. More expensive items can be bought in play but Travellers will have to seek them out. Any left-over money can be converted into cash, trade goods or just saved.
+            </markdown>
+        </button>
+        <subgroup title="Other Benefits">
+            <button text="Armour">
+                <markdown>
+                    # Armour
+                    ---
+                    Select any type of armour with a limit of Cr10000 and TL12. If you roll this Benefit again, then you can either select another type of armour with the same limits or trade your original in for armour with a limit of Cr25000.
+                </markdown>
+            </button>
+            <button text="Blade">
+                <markdown>
+                    # Blade
+                    ---
+                    Select any blade weapon with a limit of Cr1000 and TL12. If you roll this Benefit again, you may take another blade or one level in the Melee (blade) skill.
+                </markdown>
+            </button>
+            <button text="Characteristic Increase">
+                <markdown>
+                    # Characteristic Increase
+                    ---
+                    Increase the listed characteristic by the amount shown, up to your racial maximum. Human characters are limited to a score of 15. Characteristic increases above 15 are lost, with the exception of SOC increases – every point of excess SOC becomes a Ship Share.
+                </markdown>
+            </button>
+            <button text="Cybernetic Implant">
+                <markdown>
+                    # Cybernetic Implant
+                    ---
+                    Gain any augmentations (see page 106) with a limit of Cr75000 and TL12. If you roll this Benefit again, then you may either take a different augmentation or increase the one you already possess by one level of Improvement (this may take it above the Credit and TL limit).
+                </markdown>
+            </button>
+            <button text="Free Trader">
+                <markdown>
+                    # Free Trader
+                    ---
+                    You receive a free trader with 25% of the mortgage paid off on it. Roll 1D times on the Spacecraft Quirks table. If you roll this Benefit again, an additional 25% of the mortgage has been paid off – if you roll this Benefit four times, the free trader will have no mortgage and it will be all yours! Alternatively, you may select a far trader instead.
+                </markdown>
+            </button>
+            <button text="Gun">
+                <markdown>
+                    # Gun
+                    ---
+                    Select any common or military ranged weapon with a limit of Cr3000 and TL12. If you roll this benefit again, you may take another weapon or one level in the appropriate Gun Combat skill for a weapon already received as a Benefit.
+                </markdown>
+            </button>
+            <button text="Lab Ship">
+                <markdown>
+                    # Lab Ship
+                    ---
+                    You receive a lab ship with 25% of the mortgage paid off on it. Roll 1D times on the Spacecraft Quirks table. If you roll this Benefit again, an additional 25% of the mortgage has been paid off – if you roll this Benefit four times, the lab ship will have no mortgage and it will be all yours!
+                </markdown>
+            </button>
+            <button text="Personal Vehicle">
+                <markdown>
+                    # Personal Vehicle
+                    ---
+                    You receive a personal vehicle, such as a ground car or air/raft. You can choose exactly what type of vehicle this is but it may not be armed and has a limit of Cr300000 and TL10. If you roll this Benefit again, gain a level of Drive or Flyer.
+                </markdown>
+            </button>
+            <button text="Scientific Equipment">
+                <markdown>
+                    # Scientific Equipment
+                    ---
+                    Gain any one piece of scientific equipment with a limit of Cr2000 and TL12. If you roll this Benefit again, take another piece of scientific equipment or gain one level in Electronics or Science.
+                </markdown>
+            </button>
+            <button text="Scout Ship">
+                <markdown>
+                    # Scout Ship
+                    ---
+                    You receive a scout ship. You have full use of the ship and can modify it as you see fit but it still belongs to the Scout Service and can (and will!) be recalled back into service as needed. This means you will be expected to complete missions for the Scout Service from time-to-time. If you roll this Benefit more than once, re-roll the result.
+                </markdown>
+            </button>
+            <button text="Ship's Boat">
+                <markdown>
+                    # Ship's Boat
+                    ---
+                    You receive a ship’s boat or other small craft with a limit of MCr10 and TL12. If you roll this Benefit again, gain Pilot (small craft). Alternatively, receive a Ship Share instead.
+                </markdown>
+            </button>
+            <button text="Ship Shares">
+                <markdown>
+                    # Ship Shares
+                    ---
+                    You obtain one or more Ship Shares that can be put towards obtaining a ship. Each share is worth MCr1 but cannot be redeemed for cash.
+                </markdown>
+            </button>
+            <button text="Weapon">
+                <markdown>
+                    # Weapon
+                    ---
+                    Select any weapon with a limit of Cr3000 and TL12. If you roll this benefit again, you may take another weapon or one level in the appropriate Melee or Gun Combat skill for a weapon already received as a Benefit.
+                </markdown>
+            </button>
+            <button text="TAS Membership">
+                <markdown>
+                    # TAS Membership
+                    ---
+                    You are a member of the Traveller’s Aid Society (TAS), a private organisation that maintains hostels and facilities at all Class A and B starports in many parts of human space. Facilities are available (at reasonable cost) to members and their guests. Receipt of membership in the Traveller’s Aid Society as a benefit may be construed as a reward for heroism or extraordinary service to the Society rather than an official benefit from a career. Membership is for life and not transferable.
+                    Membership may also be purchased for MCr1, although it is possible for an application to be ‘black-balled’ by an existing member. The Traveller’s Aid Society is an exclusive organisation, made up of those who are truly citizens of the galaxy, not just a single world.
+                    The TAS invests its membership fees and other incomes; it uses its capital and return to provide benefits to its members. Every two months, it pays dividends in the form of one high passage to each member. This passage may be used, retained or sold.
+                    Membership may only be received once per Traveller. If you roll this Benefit again, receive two Ship Shares instead.
+                </markdown>
+            </button>
+            <button text="Yatch">
+                <markdown>
+                    # Yatch
+                    ---
+                    You receive a yacht with 25% of the mortgage paid off on it. Roll 1D times on the Spacecraft Quirks table. If you roll this Benefit again, an additional 25% of the mortgage has been paid off – if you roll this benefit four times, the yacht will have no mortgage and it will be all yours! Alternatively, you may select a Safari Ship instead.
+                </markdown>
+            </button>
+        </subgroup>
+        <button text="Pension">
+            <markdown>
+                # Pension
+                ---
+                A Traveller that leaves a career (other than Scout, Rogue, Prisoner or Drifter) after at least five terms is considered to have retired and receives a pension. This pension is paid at the beginning of each year, effective upon leaving the service and may be collected at any Class A or B starport.
+                ---
+                | Terms | Pay |
+                | --- | --- |
+                | 5 | Cr10,000 |
+                | 6 | Cr12,000 |
+                | 7 | Cr14,000 |
+                | 8 | Cr16,000 |
+                | 9+ | Cr2,000 per term beyond 8 |
+            </markdown>
+        </button>
+        <button text="Ageing">
+            <markdown>
+                # Ageing
+                ---
+                The effects of ageing begin when a Traveller reaches 34 years of age (at the end of their fourth career term). At the end of the fourth term and at the end of every term thereafter, the Traveller must roll 2D on the Ageing table. Use the Traveller’s total number of terms as a negative DM on this table; the older you are, the heavier the effects of ageing will weigh upon you.
+                The Traveller may choose which characteristics are affected by ageing.
+                ---
+                | 2D | Effects of Ageing |
+                | --- | --- |
+                | -6 | Reduce three physical characteristics by 2, reduce one mental characteristic by 1 |
+                | -5 | Reduce three physical characteristics by 2 |
+                | -4 | Reduce two physical characteristics by 2, reduce one physical characteristic by 1 |
+                | -3 | Reduce one physical characteristic by 2, reduce two physical characteristic by 1 |
+                | -2 | Reduce three physical characteristics by 1 |
+                | -1 | Reduce two physical characteristics by 1 |
+                | 0 | Reduce one physical characteristic by 1 |
+                | 1+ | No effect |
+            </markdown>
+        </button>
+        <button text="Ageing Crisis">
+            <markdown>
+                # Ageing Crisis
+                ---
+                If any characteristic is reduced to 0, then the Traveller suffers an ageing crisis. The Traveller dies unless they pay 1D x Cr10000 for medical care, which will bring any characteristics back up to 1. The Traveller automatically fails any qualification rolls from now on.
+            </markdown>
+        </button>
+        <button text="Anagathics">
+            <markdown>
+                # Anagathics
+                ---
+                At the start of any career term, a Traveller can start taking anagathics by rolling SOC 10+ (if you roll 2 exactly, you must instead go straight to the Prisoner career in this term). While using anagathic drugs, the Traveller effectively does not age – add the number of terms since the Traveller started taking anagathics as a positive DM to rolls on the Ageing table. If a Traveller stops taking anagathics for any reason in the future, then they must roll immediately on the Ageing table as the shock of their system beginning to age again strikes.
+                Anagathics have two drawbacks. First, the combined risk of trying to obtain a reliable supply and the disruption to their biochemistry means the Traveller must make two Survival checks in each term instead of one. If either or both checks are failed, the Traveller suffers a Mishap.
+                Second, the drugs cost 1D x Cr25000 for each term the Traveller uses the drugs. These costs are paid out of the Traveller’s eventual cash benefits. If the Traveller cannot pay these bills, they go into debt – see Medical Bills.
+            </markdown>
+        </button>
+        <button text="Injuries">
+            <markdown>
+                # Injuries
+                ---
+                Travellers wounded in combat or accidents during creation must roll on the Injury table to see how bad their injuries are.
+                ---
+                | 1D | Injury |
+                | --- | --- |
+                | 1 | Nearly killed – reduce one physical characteristic by 1D, reduce two other physical characteristics by 2. |
+                | 2 | Severely injured – reduce one physical characteristic by 1D. |
+                | 3 | Missing Eye or Limb – reduce STR or DEX by 2. |
+                | 4 | Scarred – you are scarred and injured. Reduce any physical characteristic by 2. |
+                | 5 | Injured. Reduce any physical characteristic by 1. |
+                | 6 | Lightly Injured. No permanent effect. |
+            </markdown>
+        </button>
+        <button text="Medical Care">
+            <markdown>
+                # Medical Care
+                ---
+                If you have been injured, then medical care may be able to undo the effects of the damage. Some worlds have the technology to clone or rebuild damaged organs; others specialise in transplants or cybernetic replacements. Regardless of the technique used, medical care is expensive.
+                The restoration of a lost characteristic costs Cr5000 per point.
+                If you were injured in the service of an organisation, then a portion of your medical care may be paid for. Roll 2D on the Medical Bills table, adding your rank as a DM.
+                ---
+                | Career | Roll of 4+ | Roll of 8+ | Roll of 12+ |
+                | --- | --- | --- | --- |
+                | Army/Navy/Marine | 75% | 100% | 100% |
+                | Agent/Noble/Scholar/Entertainer/Merchant/Citizen | 50% | 75% | 100% |
+                | Scout/Rogue/Drifter | 0% | 50% | 75% |
             </markdown>
         </button>
     </group>
@@ -1325,8 +1620,295 @@
                 </markdown>
             </button>
         </subgroup>
-        <subgroup title="Prisoner"></subgroup>
-        <subgroup title="Pison"></subgroup>
+        <subgroup title="Prisoner">
+            <button text="Qualification">
+                <markdown>
+                    # Prisoner
+                    ---
+                    Every society has its bad apples and even in the far future punishments usually take place within faceless institutions where criminals can be conveniently forgotten.
+                    ---
+                    **Qualification:** Special. One does not ‘qualify’ for prison; you got sentenced there for a crime you may or may not have committed.
+                </markdown>
+            </button>
+            <button text="Assignment">
+                <markdown>
+                    # Assignments
+                    ---
+                    Choose one of the following:
+                    **Inmate:** You just try to get through your time in prison without getting into trouble.
+                    **Thug:** You are part of a gang in prison, terrorising the other inmates.
+                    **Fixer:** You can arrange anything – for the right price.
+                </markdown>
+            </button>
+            <button text="Career Progress">
+                <markdown>
+                    # Career Progress
+                    ---
+                    | | Survival | Advancement |
+                    | --- | --- | --- |
+                    | Inmate | END 7+ | STR 7+ |
+                    | Thug | STR 8+ | END 6+ |
+                    | Fixer | INT 9+ | END 5+ |
+                    ---
+                    A Traveller may not normally leave or be ejected from this career – not even Mishaps will force them to leave. Instead, they have a value called a Parole Threshold. At the end of each term in the prisoner career, if the Traveller’s advancement roll is greater than their Parole Threshold, it means their prison sentence has come to an end and they leave this career. Otherwise, they may not leave this career and must continue in it for another term.
+                    A Traveller’s Parole Threshold starts at 1D+2. A Traveller’s Parole Threshold can never go above 12.
+                </markdown>
+            </button>
+            <button text="Mustering Out">
+                <markdown>
+                    # Mustering Out Benefits
+                    ---
+                    | 1D | Cash | Benefits |
+                    | --- | --- | --- |
+                    | 1 | None | Contact |
+                    | 2 | None | Blade |
+                    | 3 | Cr100 | Deception, Persuade or Stealth |
+                    | 4 | Cr200 | Ally |
+                    | 5 | Cr500 | Melee, Recon or Streetwise |
+                    | 6 | Cr1,000 | STR +1 or END +1 |
+                    | 7 | Cr2,500 | Deception, Persuade or Stealth |
+                </markdown>
+            </button>
+            <button text="Skill Tables">
+                <markdown>
+                    # Skills and Training
+                    ---
+                    | 1D | Personal Development | Service Skills | Inmate | Thug | Fixer |
+                    | --- | --- | --- | --- | --- | --- |
+                    | 1 | STR +1 | Athletics | Stealth | Persuade | Investigate |
+                    | 2 | Melee (unarmed) | Deception | Melee (unarmed) | Melee (unarmed) | Broker |
+                    | 3 | END +1 | Profession | Streetwise | Melee (unarmed) | Deception |
+                    | 4 | Jack-of-all-Trades | Streetwise | Survival | Melee (blade) | Streetwise |
+                    | 5 | EDU +1 | Melee (unarmed) | Athletics (strength) | Athletics (strength) | Stealth |
+                    | 6 | Gambler | Persuade | Mechanic | Athletics (strength) | Admin |
+                </markdown>
+            </button>
+            <button text="Ranks">
+                <markdown>
+                    # Ranks and Bonuses
+                    ---
+                    | Rank | Skill or Bonus |
+                    | --- | --- |
+                    | 0 | Melee (unarmed) 1 |
+                    | 1 | — |
+                    | 2 | Athletics 1 |
+                    | 3 | — |
+                    | 4 | Advocate 1 |
+                    | 5 | — |
+                    | 6 | END +1 |
+                </markdown>
+            </button>
+            <button text="Mishaps">
+                <markdown>
+                    # Mishaps
+                    ---
+                    | 1D | Mishap |
+                    | --- | --- |
+                    | 1 | Severely injured (this is the same as a result of 2 on the Injury table). Alternatively, roll twice on the Injury table and take the lower result. |
+                    | 2 | You are accused of assaulting a prison guard. Parole Threshold +2. |
+                    | 3 | A prison gang persecutes you. You may choose to fight back if you wish but, if you do not, you lose all Benefit rolls from your Prisoner career. If you fight back, roll Melee (unarmed) 8+. Fail and you must roll twice on the Injury table and take the lower result. Succeed and you gain an Enemy and raise Parole Threshold by +1. |
+                    | 4 | A guard takes a dislike to you. Gain an Enemy and raise your Parole Threshold by +1. |
+                    | 5 | Disgraced. Word of your criminal past reaches your homeworld. Lose 1 SOC. |
+                    | 6 | Injured. Roll on the Injury table. |
+                </markdown>
+            </button>
+            <button text="Events">
+                <markdown>
+                    # Events
+                    ---
+                    | 2D | Event |
+                    | --- | --- |
+                    | 2 | Disaster! Roll on the Mishap table. However, you are not ejected from this career. |
+                    | 3 | You have the opportunity to escape the prison. If you take this opportunity, roll either Stealth 10+ or Deception 10+. Succeed and you leave this career. Fail and raise your Parole Threshold by +2. |
+                    | 4 | You are assigned to difficult or backbreaking labour. Roll END 8+. If you fail, increase your Parole Threshold by +1. Succeed and you may reduce your Parole Threshold by 1 and gain any one of the following skills: Athletics (any) 1, Mechanic 1, or Melee (unarmed) 1. |
+                    | 5 | You have the opportunity to join a gang. Roll Persuade or Melee 8+ to do so. If you fail, you gain an Enemy. Succeed and you must raise your Parole Threshold by +1 but gain DM+1 to all survival rolls in this career and any one of the following skills: Deception 1, Persuade 1, Melee (unarmed) 1 or Stealth 1. |
+                    | 6 | Vocational Training. Roll EDU 8+ to gain any one skill except Jack-of-all-Trades. |
+                    | 7 | Roll a Prison Event below |
+                    | 8 | Parole hearing. Reduce your Parole Threshold by -1. |
+                    | 9 | You have the opportunity to hire a new lawyer, with your choice of Advocate skill. They cost Cr1000 x their Advocate level squared. Roll 2D + your lawyer’s Advocate skill; on an 8+, reduce your Parole Threshold by 1D. |
+                    | 10 | Special Duty. You are given a special responsibility in the prison. Gain one of Admin, Advocate, Electronics (computers) or Steward. |
+                    | 11 | The warden takes an interest in your case. Reduce your Parole Threshold by -2. |
+                    | 12 | Heroism. You have the opportunity to save a guard or prison officer. If you take the risk, roll 2D. On a 7 or less, roll on the Injury table. On 8+, gain an Ally and reduce your Parole Threshold by -2. |
+                    ---
+                    | 1D | Prison Event |
+                    | --- | --- |
+                    | 1 | Riot. A riot engulfs the prison. Roll 1D. On a 1–2, you are injured – roll on the Injury table. On a 5–6, you are able to loot something useful; gain an extra Benefit roll this term. |
+                    | 2 | New Contact. You make friends with another inmate; gain them as a Contact. |
+                    | 3 | New Rival. You gain a new Rival among the inmates or guards. |
+                    | 4 | Transferred. You are moved to a different prison. Re-roll your Parole Threshold. |
+                    | 5 | Good Behaviour. Reduce your Parole Threshold by -2. |
+                    | 6 | You are attacked by another prisoner. Roll Melee (unarmed) 8+. If you fail, roll on the Injury table. |
+                </markdown>
+            </button>
+        </subgroup>
+        <subgroup title="Psion">
+            <button title="Psionics">
+                <markdown>
+                    # Psionics
+                    ---
+                    In Traveller, a few humans (and aliens) have developed potent psionic abilities such as telepathy, telekinesis and even teleportation. Learning to properly control psionics is never easy and their use cannot always be relied upon but they are guaranteed to provide their practitioners with a dangerous edge simply not possible for normal humans.
+                </markdown>
+            </button>
+            <button title="The Law">
+                <markdown>
+                    # The Imperium: Psionics and the Law
+                    ---
+                    In the Charted Space universe, learning to harness psionics is a difficult process, made harder by the Third Imperium’s ban on psionics. The Psionics Institutes that study mental powers have gone underground, following a disastrous attempt to guide human development centuries ago. In other civilisations, such as the Zhodani Consulate, psionics are a fully accepted part of the human condition.
+                </markdown>
+            </button>
+            <button title="Psionic Strength">
+                <markdown>
+                    # Pisonic Strength
+                    ---
+                    Psionics are powered by the Psionic Strength (PSI) characteristic. This characteristic cannot be rolled during Traveller creation without the referee’s permission and even then it is quite rare. To determine a Traveller’s PSI, roll 2D and subtract the number of terms served by the Traveller in all careers thus far (PSI diminishes over time unless actively used). For example, a 38 year old Traveller (five terms served) would roll 2D–5 to determine their PSI. A Traveller with PSI 0 has no potential for psionic talents.
+                    Using a psionic power costs a number of PSI points, temporarily reducing the Traveller’s total. As the characteristic DM for all psionic skill checks is determined by the Travellers’ current PSI total, it gets harder and harder to use powers as the Traveller’s PSI declines.
+                </markdown>
+            </button>
+            <button title="Institute Testing">
+                <markdown>
+                    # Institute Testing
+                    ---
+                    A Traveller who wishes to develop psionic abilities requires training. In settings where psionics are uncommon or illegal, the Traveller must find a teacher, normally an underground Psionics Institute. Finding such an instructor can be an adventure in itself. Most teachers will charge at least Cr5000 to test the Traveller’s abilities. Testing takes two weeks.
+                    The first step is testing a Traveller’s PSI, which is determined as described before (2D minus the number of terms served). If the Traveller has any PSI remaining, they can be trained.
+                    Training requires four months of work and costs Cr100000. As part of training, the Traveller may attempt to learn any of the common psionic talents on the Psionic Training table by making a PSI check. They may attempt the talents in any order but suffer DM–1 per check attempted. If a Traveller learns a talent, they gain it at skill level 0.
+                </markdown>
+            </button>
+            <button title="Telepathic Potential">
+                <markdown>
+                    # Telepathic Potential
+                    ---
+                    Telepaths are by far the most common among those with psionic potential. If a Traveller chooses Telepathy as their first talent, it will be gained automatically with no need to roll on the Psionic Training table.
+                    ---
+                    ### Psionic Training
+                    | Talent | Learning DM |
+                    | --- | --- |
+                    | Telepathy | +4 |
+                    | Clairvoyance | +3 |
+                    | Telekinesis | +2 |
+                    | Awareness | +1 |
+                    | Teleporation | + 0 |
+                    | Per previous talent acquisition check | -1 |
+                </markdown>
+            </button>
+            <button title="Pison Career">
+                <markdown>
+                    # Using the Psion Career
+                    ---
+                    A Traveller may only attempt to enter the Psion career with the permission of the referee normally because of the single Life Event that allows it.
+                    Unlike other careers, a Psion takes skills from the appropriate Specialist table instead of the Service Skills table during basic training.
+                    The Psion must still roll to acquire talents when they determine their PSI. When rolling on the Service Skills table, if the Psion gains the skill for a talent they do not yet possess, they may attempt another roll to learn that talent.
+                    The assignments for Psions are considered to be separate careers and a Traveller must roll for qualification as normal if they choose to change assignment during their career.
+                </markdown>
+            </button>
+            <button title="Qualification">
+                <markdown>
+                    # Pison
+                    ---
+                    A career for Travellers who choose to focus on their psionic potential instead of more conventional lifestyles.
+                    ---
+                    **Qualification:** PSI 6+
+                    DM-1 for every previous career
+                </markdown>
+            </button>
+            <button title="Assignment">
+                <markdown>
+                    # Assignments
+                    ---
+                    Choose one of the following:
+                    **Wild Talent:** You developed your powers without formal training.
+                    **Adept:** You are a scholar of the psionic disciplines.
+                    **Psi-Warrior:** You combine combat training with psionic warfare.
+                </markdown>
+            </button>
+            <button title="Career Progress">
+                <markdown>
+                    # Career Progress
+                    ---
+                    | | Survival | Advancement |
+                    | --- | --- | --- |
+                    | Wild Talent | SOC 6+ | INT 8+ |
+                    | Adept | EDU 4+ | EDU 8+ |
+                    | Psi-Warrior | END 6+ | END 6+ |
+                </markdown>
+            </button>
+            <button title="Mustering Out">
+                <markdown>
+                    # Mustering Out Benefits
+                    ---
+                    | 1D | Cash | Benefits |
+                    | --- | --- | --- |
+                    | 1 | Cr1,000 | Gun |
+                    | 2 | Cr2,000 | Two Ship Shares |
+                    | 3 | Cr4,000 | Contact |
+                    | 4 | Cr4,000 | TAS Membership |
+                    | 5 | Cr8,000 | Contact |
+                    | 6 | Cr8,000 | Combat Implant |
+                    | 7 | Cr16,000 | 10 Ship Shares |
+                </markdown>
+            </button>
+            <button title="Skill Tables">
+                <markdown>
+                    # Skills and Training
+                    ---
+                    | 1D | Personal Development | Service Skills | Advanced Education (Min. EDU 8) | Wild Talent | Adept | Psi-Warrior |
+                    | --- | --- | --- | --- | --- | --- | --- |
+                    | 1 | EDU +1 | Telepathy | Language | Telepathy | Telepathy | Telepathy |
+                    | 2 | INT +1 | Clairvoyance | Art | Telekinesis | Clairvoyance | Awareness |
+                    | 3 | STR +1 | Telekinesis | Electronics | Deception | Awareness | Teleportation |
+                    | 4 | DEX +1 | Awareness | Medic | Stealth | Medic | Gun Combat |
+                    | 5 | END +1 | Teleportation | Science | Streetwise | Persuade | Vacc Suit |
+                    | 6 | PSI +1 | Any Talent | Mechanic | Melee or Gun Combat | Science | Recon |
+                </markdown>
+            </button>
+            <button title="Ranks">
+                <markdown>
+                    # Ranks and Bonuses
+                    ---
+                    | Rank | Wild Talent | Skill or Bonus | Adept | Skill or Bonus | Psi-Warrior | Skill or Bonus |
+                    | --- | --- | --- | --- | --- | --- | --- |
+                    | 0 | — | — | — | — | Psi-Solider | —
+                    | 1 | Survivor | Survival 1 or Streetwise 1 | Initiate | Science (psioncology) 1 | — | Gun Combat 1 |
+                    | 2 | — | — | — | — | Knight | Leadership 1 |
+                    | 3 | Witch | Deception 1 | Acolyte | Any Talent skill 1 | — | — |
+                    | 4 | — | — | — | — | — | — |
+                    | 5 | — | — | — | — | Master of Wills | Tactics 1 |
+                    | 6 | — | — | Master | Any Talent skill 1 | — | — |
+                </markdown>
+            </button>
+            <button title="Mishaps">
+                <markdown>
+                    # Mishaps
+                    ---
+                    | 1D | Mishap |
+                    | --- | --- |
+                    | 1 | Severely injured (this is the same as a result of 2 on the Injury table). Alternatively, roll twice on the Injury table and take the lower result. |
+                    | 2 | You telepathically contact something dangerous. Lose one PSI. You also suffer from persistent and terrifying nightmares. |
+                    | 3 | An anti-psi cult or gang attempts to expose or attack you. Roll 1D: on a 1–2, you are injured, roll on the Injury table. On a 3–4, lose one SOC. On a 5–6, nothing else happens but you still must leave this career. |
+                    | 4 | You are asked to use your psionic powers in an unethical fashion. Accept and you may continue in this career but gain an Enemy. Refuse and you must leave the career. |
+                    | 5 | You are experimented on by a corporation, government or other organisation. You escape but are forced to leave this career. |
+                    | 6 | Your gift causes a former friend to turn on you and betray you. One Ally or Contact becomes an Enemy. |
+                </markdown>
+            </button>
+            <button title="Events">
+                <markdown>
+                    # Events
+                    ---
+                    | 2D | Event |
+                    | --- | --- |
+                    | 2 | Disaster! Roll on the Mishap table but you are not ejected from this career. |
+                    | 3 | Your psionic abilities make you uncomfortable to be around. One Contact or Ally becomes a Rival. |
+                    | 4 | Choose one of these skills, reflecting your time spent mastering mind and body. Gain one of Athletics 1, Stealth 1, Survival 1 or Art 1. |
+                    | 5 | You have a chance to use your powers unethically to better your standing. If you accept, roll PSI 8+. If you succeed, gain an extra Benefit roll or +1 SOC. If you fail, lose one SOC. |
+                    | 6 | You make an unexpected connection outside your normal circles. Gain a Contact. |
+                    | 7 | Life Event. Roll on the Life Events table. |
+                    | 8 | You achieve a new level of psionic strength. Increase your PSI by +1. |
+                    | 9 | You are given advanced training in a specialist field. Roll EDU 8+ to gain any one skill except Jackof-all-Trades. |
+                    | 10 | You pick up potentially useful information using your psychic powers. Gain DM+1 to any one Benefit roll. |
+                    | 11 | You gain a mentor. Gain an Ally and DM+4 to your next advancement roll (in any career) thanks to their aid. |
+                    | 12 | You achieve a new level of discipline in your powers. You are automatically promoted. |
+                </markdown>
+            </button>
+        </subgroup>
         <subgroup title="Rogue">
             <button text="Qualification">
                 <markdown>
@@ -1545,166 +2127,257 @@
                 </markdown>
             </button>
         </subgroup>
+        <subgroup title="Scout ">
+            <button text="Qualifiction">
+                <markdown>
+                    # Scout
+                    ---
+                    Members of the exploratory service. Scouts explore new areas, map and survey known or newly discovered areas and maintain communication ships which carry information and messages between the worlds of the galaxy.
+                    ---
+                    **Qualification:** INT 5+
+                    DM-1 for every previous career
+                </markdown>
+            </button>
+            <button text="Assignment">
+                <markdown>
+                    # Assignments
+                    ---
+                    Choose one of the following:
+                    **Courier:** You are responsible for shuttling messages and high value packages around the galaxy.
+                    **Surveyor:** You visit border worlds and assess their worth.
+                    **Explorer:** You go wherever the map is blank, exploring unknown worlds and uncharted space.
+                </markdown>
+            </button>
+            <button text="Career Progress">
+                <markdown>
+                    # Career Progress
+                    ---
+                    | | Survival | Advancement |
+                    | --- | --- | --- |
+                    | Courier | END 5+ | EDU 9+ |
+                    | Surveyor | END 6+ | INT 8+ |
+                    | Explorer | END 7+ | EDU 7+ |
+                </markdown>
+            </button>
+            <button text="Mustering Out">
+                <markdown>
+                    # Mustering Out Benefits
+                    ---
+                    | 1D | Cash | Benefits|
+                    | --- | --- | --- |
+                    | 1 | Cr20,000 | Ship Share |
+                    | 2 | Cr20,000 | INT +1 |
+                    | 3 | Cr30,000 | EDU +1 |
+                    | 4 | Cr30,000 | Weapon |
+                    | 5 | Cr50,000 | Weapon |
+                    | 6 | Cr50,000 | Scout Ship |
+                    | 7 | Cr50,000 | Scout Ship |
+                </markdown>
+            </button>
+            <button text="Skill Tables">
+                <markdown>
+                    # Skills and Training
+                    ---
+                    | 1D | Personal Development | Service Skills | Advanced Education (Min. EDU 8) | Courier | Surveyor | Explorer |
+                    | --- | --- | --- | --- | --- | --- | --- |
+                    | 1 | STR +1 | Pilot (small craft or spacecraft) | Medic | Electronics | Electronics | Electronics |
+                    | 2 | DEX +1 | Survival | Language | Flyer | Persuade | Pilot |
+                    | 3 | END +1 | Mechanic | Seafarer | Pilot (spacecraft) | Pilot | Engineer |
+                    | 4 | INT +1 | Astrogation | Explosives | Engineer | Navigation | Science |
+                    | 5 | EDU +1 | Vacc Suit | Sicence | Athletics | Diplomat | Stealth |
+                    | 6 | Jack-of-all-Trades | Gun Combat | Jack-of-all-Trades | Astrogation | Streetwise | Recon |
+                </markdown>
+            </button>
+            <button text="Ranks">
+                <markdown>
+                    # Ranks and Bonuses
+                    ---
+                    | Rank | Title | Skill or Bonus |
+                    | --- | --- | --- |
+                    | 0 | — | — |
+                    | 1 | Scout | Vacc Suit 1 |
+                    | 2 | — | — |
+                    | 3 | Senior Scout | Pilot 1 |
+                    | 4 | — | — |
+                    | 5 | — | — |
+                    | 6 | — | — |
+                </markdown>
+            </button>
+            <button text="Mishaps">
+                <markdown>
+                    # Mishaps
+                    ---
+                    | 1D | Mishap |
+                    | --- | --- |
+                    | 1 | Severely injured (this is the same as a result of 2 on the Injury table). Alternatively, roll twice on the Injury table and take the lower result. |
+                    | 2 | Psychologically damaged by your time in the scouts. Reduce your INT or SOC by 1. |
+                    | 3 | Your ship is damaged and you have to hitch-hike your way back across the stars to the nearest scout base. Gain 1D Contacts and D3 Enemies. |
+                    | 4 | You inadvertently cause a conflict between the Imperium and a minor world or species. Gain a Rival and Diplomat 1. |
+                    | 5 | You have no idea what happened to you – they found your ship drifting on the fringes of friendly space. |
+                    | 6 | Injured. Roll on the Injury table. |
+                </markdown>
+            </button>
+            <button text="Events">
+                <markdown>
+                    # Events
+                    ---
+                    | 2D | Event |
+                    | --- | --- |
+                    | 2 | Disaster! Roll on the Mishap table but you are not ejected from this career. |
+                    | 3 | Your ship is ambushed by enemy vessels. Either run and roll Pilot 8+ to escape, or treat with them and roll Persuade 10+ to bargain with them. If you fail the check, then your ship is destroyed and you may not re-enlist in the Scouts at the end of this term. If you succeed, you survive and gain Electronics (sensors) 1. Either way, gain an Enemy. |
+                    | 4 | You survey an alien world. Gain one of Animals (riding or training) 1, Survival 1, Recon 1 or Science 1. |
+                    | 5 | You perform an exemplary service for the scouts. Gain DM+1 to any one Benefit roll. |
+                    | 6 | You spend several years jumping from world to world in your scout ship. Gain one of Astrogation 1, Electronics 1, Navigation 1, Pilot (small craft) 1 or Mechanic 1. |
+                    | 7 | Life Event. Roll on the Life Events table. |
+                    | 8 | When dealing with an alien species , you have an opportunity to gather extra intelligence about them. Roll either Electronics 8+ or Deception 8+. If you succeed, gain an Ally in the Imperium and DM+2 to your next advancement roll. If you fail, roll on the Mishap table but you are not ejected from this career. |
+                    | 9 | Your scout ship is one of the first on the scene to rescue the survivors of a disaster. Roll either Medic 8+ or Engineer 8+. If you succeed, gain a Contact and DM+2 to your next advancement roll. If you fail, gain an Enemy. |
+                    | 10 | You spend a great deal of time on the fringes of Charted Space. Roll Survival 8+ or Pilot 8+. If you succeed, gain a Contact in an alien species and one level in any skill of your choice. If you fail, roll on the Mishap table but you are not ejected from this career. |
+                    | 11 | You serve as the courier for an important message from the Imperium. Either gain one level of Diplomat or DM+4 to your next advancement roll. |
+                    | 12 | You discover a world, item or information of worth to the Imperium. You are automatically promoted. |
+                </markdown>
+            </button>
+        </subgroup>
     </group>
-    <group title="Misc">
-        <button text="Life Events">
+    <group title="Skills Packages">
+        <button text="Traveller">
             <markdown>
-                | 2D | Event |
-                | --- | --- |
-                | 2 | **Sickness or Injury:** You are injured or become sick. Roll on the Injury table. |
-                | 3 | **Birth or Death:** Someone close to you dies, like a friend or family member. Alternatively, someone close to you gives birth (or is born!). You are involved in some fashion (father or mother, relative, godparent and so forth). |
-                | 4 | **Ending of Relationship:** A romantic relationship involving you ends. Badly. Gain a Rival or Enemy. |
-                | 5 | **Improved Relationship:** A romantic relationship involving you deepens, possibly leading to marriage or some other emotional commitment. Gain an Ally. |
-                | 6 | **New Relationship:** You become involved in a romantic relationship. Gain an Ally. |
-                | 7 | **New Contact:** You gain a new Contact. |
-                | 8 | **Betrayal:** You are betrayed in some fashion by a friend. If you have any Contacts or Allies, convert one into a Rival or Enemy. Otherwise, gain a Rival or an Enemy. |
-                | 9 | **Travel:** You move to another world. You gain DM+2 to your next qualification roll. |
-                | 10 | **Good Fortune:** Something good happens to you; you come into money unexpectedly, have a lifelong dream come true, get a book published or have some other stroke of good fortune. Gain DM+2 to any one Benefit roll. |
-                | 11 | **Crime:** You commit or are the victim (or are accused) of a crime. Lose one Benefit roll or take the Prisoner career in your next term. |
-                | 12 | **Unusual Event:** Something weird happens. Roll 1D (see below table) |
+                # Traveller Skills Package
                 ---
-                | 1D | Unusual Event |
-                | --- | --- |
-                | 1 | **Psionics:** You encounter a Psionic institute. You may immediately test your Psionic Strength and, if you qualify, take the Psion career in your next term. |
-                | 2 | **Aliens:** You spend time among an alien species. Gain Science 1 and a Contact among an alien species. |
-                | 3 | **Alien Artefact:** You have a strange and unusual device from an alien culture that is not normally available to humans. |
-                | 4 | **Amnesia:** Something happened to you but you do not know what it was. |
-                | 5 | **Contact with Government:** You briefly came into contact with the highest echelons of the Imperium – an Archduke or the Emperor, perhaps, or Imperial intelligence. |
-                | 6 | **Ancient Technology:** You have something older than the Imperium or even something older than humanity. |
+                This is an all-round skill package, good for a campaign where the Travellers are trading one week and blowing things up the next.
+                ---
+                **Skills:**
+                Deception 1, Electronics 1, Gun Combat 1, Gunner 1, Medic 1, Persuade 1, Pilot 1, Stealth 1
+            </markdown>
+        </button>
+        <button text="Trader">
+            <markdown>
+                # Trader Skills Package
+                ---
+                This skills package is for campaigns where trading and commerce are the primary activities of the Travellers.
+                ---
+                **Skills:**
+                Advocate 1, Astrogation 1, Broker 1, Diplomat 1, Electronics 1, Medic 1, Pilot 1, Streetwise 1
+            </markdown>
+        </button>
+        <button text="Explorer">
+            <markdown>
+                # Explorer Skills Package
+                ---
+                For campaigns where the Travellers are operating on the fringe of Charted Space, dealing with new worlds and ancient relics.
+                ---
+                **Skills:**
+                Astrogation 1, Electronics 1, Gun Combat 1, Medic 1, Pilot 1, Recon 1, Stealth 1, Survival 1
+            </markdown>
+        </button>
+        <button text="Investigator">
+            <markdown>
+                # Investigator Skills Package
+                ---
+                For campaigns centring on solving crimes and investigating mysteries.
+                ---
+                **Skills:**
+                Admin 1, Advocate 1, Deception 1, Electronics 1, Gun Combat 1, Investigate 1, Persuade 1, Stealth 1, Streetwise 1
+            </markdown>
+        </button>
+        <button text="Mercenary">
+            <markdown>
+                # Mercenary Skills Package
+                ---
+                This skills package focuses on ground combat and is aimed at combat-heavy games.
+                ---
+                **Skills:**
+                Electronics 1, Medic 1, Leadership 1, Heavy Weapons 1, Gun Combat 1, Gun Combat 1, Stealth 1, Recon 1
+            </markdown>
+        </button>
+        <button text="Starship">
+            <markdown>
+                # Starship Skills Package
+                ---
+                This is for campaigns where the Travellers will spend almost all their time on spacecraft.
+                ---
+                **Skills:**
+                Astrogation 1, Electronics 1, Engineer 1, Gunner 1, Mechanic 1, Medic 1, Pilot 1, Tactics (naval) 1
+            </markdown>
+        </button>
+        <button text="Diplomat">
+            <markdown>
+                # Diplomat Skills Package
+                ---
+                For campaigns where the Travellers are government operatives and ambassadors.
+                ---
+                **Skills:**
+                Admin 1, Advocate 1, Deception 1, Diplomat 1, Electronics 1, Persuade 1, Stealth 1, Streetwise 1
+            </markdown>
+        </button>
+        <button text="Criminal">
+            <markdown>
+                # Criminal Skills Package
+                ---
+                For campaigns involving crime and elaborate heists.
+                ---
+                **Skills:**
+                Broker 1, Deception 1, Electronics 1, Medic 1, Persuade 1, Pilot 1, Stealth 1, Streetwise 1
             </markdown>
         </button>
     </group>
-</control_panel>
-
-        <group title="Prisoner">
-            <screen title="Prisoner" button="Qualification"></screen>
-            <screen title="Assignment" button="Assignment"></screen>
-            <screen title="Career Progress" button="Career Progress"></screen>
-            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
-            <screen title="Skills and Training" button="Skill Tables"></screen>
-            <screen title="Ranks and Bonuses" button="Ranks"></screen>
-            <screen title="Mishaps" button="Mishaps"></screen>
-            <screen title="Events" button="Events"></screen>
-        </group>
-        <group title="Psion">
-            <screen title="Psion" button="Qualification"></screen>
-            <screen title="Assignment" button="Assignment"></screen>
-            <screen title="Career Progress" button="Career Progress"></screen>
-            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
-            <screen title="Skills and Training" button="Skill Tables"></screen>
-            <screen title="Ranks and Bonuses" button="Ranks"></screen>
-            <screen title="Mishaps" button="Mishaps"></screen>
-            <screen title="Events" button="Events"></screen>
-        </group>
-        <group title="Scout">
-            <screen title="Scout" button="Qualification"></screen>
-            <screen title="Assignment" button="Assignment"></screen>
-            <screen title="Career Progress" button="Career Progress"></screen>
-            <screen title="Mustering Out Benefits" button="Mustering Out"></screen>
-            <screen title="Skills and Training" button="Skill Tables"></screen>
-            <screen title="Ranks and Bonuses" button="Ranks"></screen>
-            <screen title="Mishaps" button="Mishaps"></screen>
-            <screen title="Events" button="Events"></screen>
-        </group>
-    </group>
-    <group title="Benefits">
-        <screen title="Benefits" button="Intro"></screen>
-        <screen title="Cash Benefits" button="Cash"></screen>
-        <group title="Other Benefits">
-            <screen title="Armour" button="Armour"></screen>
-            <screen title="Ally" button="Ally"></screen>
-            <screen title="Blade" button="Blade"></screen>
-            <screen title="Characteristic Increase" button="Characteristic"></screen>
-            <screen title="Cybernetic Implant" button="Cybernetic Implant"></screen>
-            <screen title="Contact" button="Contact"></screen>
-            <screen title="Free Trader" button="Free Trader"></screen>
-            <screen title="Gun" button="Gun"></screen>
-            <screen title="Lab Ship" button="Lab Ship"></screen>
-            <screen title="Personal Vehicle" button="Personal Vehicle"></screen>
-            <screen title="Scientific Equipment" button="Scientific Equipment"></screen>
-            <screen title="Scout Ship" button="Scout Ship"></screen>
-            <screen title="Ship's Boat" button="Ship's Boat"></screen>
-            <screen title="Ship Shares" button="Ship Shares"></screen>
-            <screen title="Weapon" button="Weapon"></screen>
-            <screen title="TAS Membership" button="TAS Membership"></screen>
-            <screen title="Yatch" button="Yatch"></screen>
-        </group>
-    </group>
-    <group title="Misc">
-        <screen title="Pension" button="Pension"></screen>
-        <group title="Ageing">
-            <screen title="Ageing" button="Ageing"></screen>
-            <screen title="Ageing Crisis" button="Ageing Crisis"></screen>
-            <screen title="Anagathics" button="Anagathics"></screen>
-        </group>
-        <group title="Injuries">
-            <screen title="Injuries" button="Table"></screen>
-            <screen title="Medical Care" button="Medical Care"></screen>
-            <screen title="Medical Bills" button="Medical Bills"></screen>
-        </group>
-    </group>
-    <group title="Skills Packages">
-        <screen title="Traveller Skills Package" button="Traveller"></screen>
-        <screen title="Trader Skills Package" button="Trader"></screen>
-        <screen title="Explorer Skills Package" button="Explorer"></screen>
-        <screen title="Investigator Skills Package" button="Investigator"></screen>
-        <screen title="Mercenary Skills Package" button="Mercenary"></screen>
-        <screen title="Starship Skills Package" button="Starship"></screen>
-        <screen title="Diplomat Skills Package" button="Diplomat"></screen>
-        <screen title="Criminal Skills Package" button="Criminal"></screen>
-    </group>
-    <group title="Aliens">
-        <screen title="Creating Alien Travellers" button="Creating Alien Travellers"></screen>
-        <group title="Aslan">
-            <screen title="Aslan" button="Description"></screen>
-            <screen title="Characteristics" button="Characteristics"></screen>
-            <screen title="Traits" button="Traits"></screen>
-        </group>
-        <group title="Vargr">
-            <screen title="Vargr" button="Description"></screen>
-            <screen title="Characteristics" button="Characteristics"></screen>
-            <screen title="Traits" button="Traits"></screen>
-        </group>
-    </group>
     <group title="Skills">
-        <screen title="Admin" button="Admin"></screen>
-        <screen title="Advocate" button="Advocate"></screen>
-        <screen title="Animals" button="Animals"></screen>
-        <screen title="Art" button="Art"></screen>
-        <screen title="Astrogation" button="Astrogation"></screen>
-        <screen title="Athletics" button="Athletics"></screen>
-        <screen title="Broker" button="Broker"></screen>
-        <screen title="Carouse" button="Carouse"></screen>
-        <screen title="Deception" button="Deception"></screen>
-        <screen title="Diplomat" button="Diplomat"></screen>
-        <screen title="Drive" button="Drive"></screen>
-        <screen title="Electronics" button="Electronics"></screen>
-        <screen title="Engineer" button="Engineer"></screen>
-        <screen title="Explosives" button="Explosives"></screen>
-        <screen title="Flyer" button="Flyer"></screen>
-        <screen title="Gambler" button="Gambler"></screen>
-        <screen title="Gunner" button="Gunner"></screen>
-        <screen title="Gun Combat" button="Gun Combat"></screen>
-        <screen title="Heavy Weapons" button="Heavy Weapons"></screen>
-        <screen title="Investigate" button="Investigate"></screen>
-        <screen title="Jack-of-all-Trades" button="Jack-of-all-Trades"></screen>
-        <screen title="Language" button="Language"></screen>
-        <screen title="Leadership" button="Leadership"></screen>
-        <screen title="Mechanic" button="Mechanic"></screen>
-        <screen title="Medic" button="Medic"></screen>
-        <screen title="Melee" button="Melee"></screen>
-        <screen title="Navigation" button="Navigation"></screen>
-        <screen title="Persruade" button="Persuade"></screen>
-        <screen title="Pilot" button="Pilot"></screen>
-        <screen title="Profession" button="Profession"></screen>
-        <screen title="Recon" button="Recon"></screen>
-        <screen title="Science" button="Science"></screen>
-        <screen title="Seafarer" button="Seafarer"></screen>
-        <screen title="Stealth" button="Stealth"></screen>
-        <screen title="Steward" button="Steward"></screen>
-        <screen title="Streetwise" button="Streetwise"></screen>
-        <screen title="Survival" button="Survival"></screen>
-        <screen title="Tactics" button="Tactics"></screen>
-        <screen title="Vacc Suit" button="Vacc Suit"></screen>
+        <button text="Admin">
+            <markdown>
+                # Admin
+                ---
+                This skill covers bureaucracies and administration of all sorts, including the navigation of bureaucratic obstacles or disasters. It also covers tracking inventories, ship manifests and other records.
+            </markdown>
+        </button>
+        <button text="Advocate">
+            <markdown>
+                # Advocate
+                ---
+                Advocate gives a knowledge of common legal codes and practises, especially interstellar law. It also gives the Traveller experience in oratory, debate and public speaking, making it an excellent skill for lawyers and politicians.
+            </markdown>
+        </button>
+        <subgroup title="Animals">
+            <button text="Animals">
+                <markdown>
+                    # Animals
+                    ---
+                    This skill, rare on industrialised or technologically advanced worlds, is for the care of animals.
+                </markdown>
+            </button>
+            <button text="Handling">
+                <markdown>
+                    # Animals (handling)
+                    ---
+                    The Traveller knows how to handle an animal and ride those trained to bear a rider. Unusual animals raise the difficulty of the check.
+                </markdown>
+            </button>
+            <button text="Veterinary">
+                <markdown>
+                    # Animals (veterinary)
+                    ---
+                    The Traveller is trained in veterinary medicine and animal care.
+                </markdown>
+            </button>
+            <button text="Training">
+                <markdown>
+                    The Traveller knows how to tame and train animals.
+                </markdown>
+            </button>
+        </subgroup>
+        <subgroup title="Art">
+            <button text="Art">
+                <markdown>
+                    # Art
+                    ---
+                    The Traveller is trained in a type of creative art.
+                </markdown>
+            </button>
+            <button text="Performer">
+                <markdown>
+                    # Performer
+                    ---
+                    The Traveller is a trained actor, dancer or singer at home on the stage, screen or holo.
+                </markdown>
+            </button>
+        </subgroup>
     </group>
-</screens>
+</control_panel>
